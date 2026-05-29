@@ -15,7 +15,7 @@ This repository separates:
 | Part | Location |
 |------|----------|
 | Narrative chapters | [`docs/`](.) |
-| Executable test procedures | [`tests/`](../tests/) |
+| Executable test procedures | [`docs/tests/`](tests/) |
 | Machine-readable catalog | [`index.json`](../index.json) |
 
 ## How to read this guide
@@ -23,7 +23,7 @@ This repository separates:
 1. [Frontispiece](01-frontispiece.md) (this page)
 2. [Introduction](02-introduction.md)
 3. [The MCP Security Testing Framework](03-mcp-security-testing-framework.md)
-4. [MCP Security Testing](04-mcp-security-testing.md) — **all test cases live under** [`tests/`](../tests/)
+4. [MCP Security Testing](04-mcp-security-testing.md) — **all test cases live under** [`docs/tests/`](tests/)
 5. [Reporting](05-reporting.md)
 
 **Appendices**

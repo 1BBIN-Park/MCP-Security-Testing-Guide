@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-TESTS = ROOT / "tests"
+TESTS = ROOT / "docs" / "tests"
 
 DEEP = {"AUTHZ", "TOOL", "RSRC", "PRMT", "GW", "TRNS"}
 
@@ -253,7 +253,7 @@ def main() -> None:
         cat_dir = TESTS / category
         cat_dir.mkdir(parents=True, exist_ok=True)
         test_id = f"MCPSTG-{category}-{num:02d}"
-        rel = f"tests/{category}/{test_id}.md"
+        rel = f"docs/tests/{category}/{test_id}.md"
         path = ROOT / rel
         key = (category, num)
         if key in HAND_AUTHORED and path.exists() and not args.force:

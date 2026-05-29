@@ -8,16 +8,16 @@
 
 ## Test case files
 
-- One file per test: `tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md`.
-- Use the template sections defined in [docs/04-mcp-security-testing.md](docs/04-mcp-security-testing.md) (Individual Test Case Format).
+- One file per test: `docs/tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md`.
+- Use the template sections defined in [docs/04-mcp-security-testing/test-case-format.md](docs/04-mcp-security-testing/test-case-format.md) (Individual Test Case Format).
 - Use placeholders only: `<TEST_TOOL_NAME>`, `<TEST_RESOURCE>`, `<TEST_WORKSPACE>`, `<TEST_USER>`, `<AUTHORIZED_LAB_SERVER>`, etc.
 - **Never** document steps that target real organizations, customers, or non-lab endpoints.
 
 ## Taxonomy rules
 
 - **One primary prefix per file** (the folder name matches the ID prefix).
-- **Input validation** tests use `MCPSTG-INPV-*` under `tests/INPV/`.
-- **Output handling** tests use `MCPSTG-OUTV-*` under `tests/OUTV/`.
+- **Input validation** tests use `MCPSTG-INPV-*` under `docs/tests/INPV/`.
+- **Output handling** tests use `MCPSTG-OUTV-*` under `docs/tests/OUTV/`.
 - New categories (`TRNS`, `GW`, `SECR`, `ABUS`, `PRVC`) follow the same numbering pattern.
 
 ## Mappings discipline
@@ -30,7 +30,7 @@
 
 When adding or renaming a test:
 
-1. Add or update `tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md`.
+1. Add or update `docs/tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md`.
 2. Update [index.json](index.json) with `id`, `title`, `category`, `risk`, `testingType`, `file`, and optional mappings.
 
 ## Regenerating skeletons (`scripts/bootstrap_tests.py`)

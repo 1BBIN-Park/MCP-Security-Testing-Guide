@@ -26,7 +26,7 @@
       "type": "string",
       "enum": ["Manual", "Automated", "Hybrid"]
     },
-    "file": { "type": "string", "pattern": "^tests/[A-Z]+/MCPSTG-[A-Z]+-\\d{2}\\.md$" },
+    "file": { "type": "string", "pattern": "^docs/tests/[A-Z]+/MCPSTG-[A-Z]+-\\d{2}\\.md$" },
     "mappings": {
       "type": "object",
       "additionalProperties": true,

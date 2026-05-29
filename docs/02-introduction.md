@@ -98,7 +98,7 @@ Use this diagram-level clarity to avoid “the model did it” as a substitute f
 
 1. Read [03-mcp-security-testing-framework.md](03-mcp-security-testing-framework.md) for principles and methodology.
 2. Use [04-mcp-security-testing.md](04-mcp-security-testing.md) to pick categories and test IDs.
-3. Execute individual tests from the [`tests/`](../tests/) tree.
+3. Execute individual tests from the [`docs/tests/`](tests/) tree.
 4. Document findings using [05-reporting.md](05-reporting.md) and [appendix-c-evidence-checklist.md](appendix-c-evidence-checklist.md).
 
 ## 2.10 Additional MCP risk surfaces (test planning)
