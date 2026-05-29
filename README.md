@@ -8,13 +8,13 @@ Developers, security testers, red teams, application security engineers, AI secu
 
 ## Guide structure (read in order)
 
-| # | Chapter | File | What it contains |
-|---|---------|------|------------------|
-| 1 | **Frontispiece** | [docs/01-frontispiece.md](docs/01-frontispiece.md) | Title, version, how to read the guide |
-| 2 | **Introduction** | [docs/02-introduction.md](docs/02-introduction.md) | MCP scope, audience, safe testing rules |
-| 3 | **The MCP Security Testing Framework** | [docs/03-mcp-security-testing-framework.md](docs/03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
-| 4 | **MCP Security Testing** | [docs/04-mcp-security-testing.md](docs/04-mcp-security-testing.md) | **Index of all tests** → procedures in [`tests/`](tests/) |
-| 5 | **Reporting** | [docs/05-reporting.md](docs/05-reporting.md) | Finding format, evidence, severity |
+| # | Chapter | What it contains |
+|---|---------|------------------|
+| 1 | [**Frontispiece**](docs/01-frontispiece.md) | Title, version, how to read the guide |
+| 2 | [**Introduction**](docs/02-introduction.md) | MCP scope, audience, safe testing rules |
+| 3 | [**The MCP Security Testing Framework**](docs/03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
+| 4 | [**MCP Security Testing**](docs/04-mcp-security-testing.md) | **Index of all tests** → procedures in [`tests/`](tests/) |
+| 5 | [**Reporting**](docs/05-reporting.md) | Finding format, evidence, severity |
 
 ### Where is the MCP security testing?
 
