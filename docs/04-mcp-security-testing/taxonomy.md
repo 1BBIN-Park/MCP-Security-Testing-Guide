@@ -1,6 +1,6 @@
 # Test ID Taxonomy
 
-[← Chapter 4 overview](../04-mcp-security-testing.md) · [About `docs/tests/`](about-docs-tests.md)
+[← Chapter 4 overview](README.md) · [About `docs/tests/`](about-docs-tests.md)
 
 Every test in [`docs/tests/`](../tests/) uses the ID format **`MCPSTG-<CATEGORY>-<NN>`**. This page defines prefixes, numbering rules, and the category-to-ID matrix.
 

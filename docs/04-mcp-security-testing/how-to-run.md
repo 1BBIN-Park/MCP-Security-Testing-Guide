@@ -1,6 +1,6 @@
 # How to Run MCPSTG Tests
 
-[← Chapter 4 overview](../04-mcp-security-testing.md) · [About `docs/tests/`](about-docs-tests.md)
+[← Chapter 4 overview](README.md) · [About `docs/tests/`](about-docs-tests.md)
 
 This page describes a practical workflow for using procedures under [`docs/tests/`](../tests/) during an authorized MCP security assessment.
 

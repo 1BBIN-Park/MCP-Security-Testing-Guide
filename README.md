@@ -13,12 +13,12 @@ Developers, security testers, red teams, application security engineers, AI secu
 | 1 | [**Frontispiece**](docs/01-frontispiece.md) | Title, version, how to read the guide |
 | 2 | [**Introduction**](docs/02-introduction.md) | MCP scope, audience, safe testing rules |
 | 3 | [**The MCP Security Testing Framework**](docs/03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
-| 4 | [**MCP Security Testing**](docs/04-mcp-security-testing.md) | **Index of all tests** → procedures in [`docs/tests/`](docs/tests/) |
+| 4 | [**MCP Security Testing**](docs/04-mcp-security-testing/README.md) | **Index of all tests** → procedures in [`docs/tests/`](docs/tests/) |
 | 5 | [**Reporting**](docs/05-reporting.md) | Finding format, evidence, severity |
 
 ### Where is the MCP security testing?
 
-**Chapter 4** is the table of contents for every test. Category guides live under [`docs/04-mcp-security-testing/`](docs/04-mcp-security-testing/about-docs-tests.md); executable procedures are in [`docs/tests/<CATEGORY>/`](docs/tests/TOOL/MCPSTG-TOOL-01.md). Start at [docs/04-mcp-security-testing.md](docs/04-mcp-security-testing.md) or [About docs/tests](docs/04-mcp-security-testing/about-docs-tests.md).
+**Chapter 4** is the table of contents for every test. Category guides live under [`docs/04-mcp-security-testing/`](docs/04-mcp-security-testing/README.md); executable procedures are in [`docs/tests/<CATEGORY>/`](docs/tests/TOOL/MCPSTG-TOOL-01.md). Start at [Chapter 4 hub](docs/04-mcp-security-testing/README.md) or [About docs/tests](docs/04-mcp-security-testing/about-docs-tests.md).
 
 ### Appendices
 
@@ -48,7 +48,7 @@ Developers, security testers, red teams, application security engineers, AI secu
 | [Category folders](docs/tests/) | One subdirectory per four-letter category (`TOOL/`, `AUTHN/`, …) |
 | [Example test case](docs/tests/TOOL/MCPSTG-TOOL-01.md) | Pattern: `docs/tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md` |
 
-Category titles and guides are in [docs/04-mcp-security-testing/](docs/04-mcp-security-testing/about-docs-tests.md); procedures are under [docs/tests/](docs/tests/).
+Category titles and guides are in [docs/04-mcp-security-testing/](docs/04-mcp-security-testing/README.md); procedures are under [docs/tests/](docs/tests/).
 
 ### Tooling (`scripts/`, `schemas/`)
 

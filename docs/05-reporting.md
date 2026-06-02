@@ -8,7 +8,7 @@ MCP assessments produce findings that span **hosts**, **servers**, **gateways**,
 
 Each finding should include:
 
-- **Test ID** (for example `MCPSTG-AUTHZ-04`) and test title from [Chapter 4](04-mcp-security-testing.md).
+- **Test ID** (for example `MCPSTG-AUTHZ-04`) and test title from [Chapter 4](04-mcp-security-testing/README.md).
 - **Affected component** (host, server, gateway, specific tool, transport).
 - **Prerequisites** and **reproduction steps** using lab placeholders only.
 - **Impact** (confidentiality, integrity, availability, financial abuse, safety).
@@ -51,4 +51,4 @@ Beyond technical content:
 
 ## 5.7 Mapping to standards
 
-In each test file's **Mapping** section, cite **OWASP LLM Top 10**, **OWASP API Security Top 10**, **ASVS**, **CWE**, and **MITRE ATLAS** only when credible. For organization-specific MCP risk lists, cite the named document and version; otherwise use `N/A` (see governance note in [04-mcp-security-testing.md](04-mcp-security-testing.md)).
+In each test file's **Mapping** section, cite **OWASP LLM Top 10**, **OWASP API Security Top 10**, **ASVS**, **CWE**, and **MITRE ATLAS** only when credible. For organization-specific MCP risk lists, cite the named document and version; otherwise use `N/A` (see governance note in [Chapter 4 — taxonomy](04-mcp-security-testing/taxonomy.md)).

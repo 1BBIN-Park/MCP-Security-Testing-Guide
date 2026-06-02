@@ -23,7 +23,7 @@ This repository separates:
 1. [Frontispiece](01-frontispiece.md) (this page)
 2. [Introduction](02-introduction.md)
 3. [The MCP Security Testing Framework](03-mcp-security-testing-framework.md)
-4. [MCP Security Testing](04-mcp-security-testing.md) — **all test cases live under** [`docs/tests/`](tests/)
+4. [MCP Security Testing](04-mcp-security-testing/README.md) — **all test cases live under** [`docs/tests/`](tests/)
 5. [Reporting](05-reporting.md)
 
 **Appendices**

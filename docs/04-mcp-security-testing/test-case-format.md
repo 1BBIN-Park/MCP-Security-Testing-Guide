@@ -1,6 +1,6 @@
 # Test Case Format and Maintenance
 
-[← Chapter 4 overview](../04-mcp-security-testing.md) · [About `docs/tests/`](about-docs-tests.md)
+[← Chapter 4 overview](README.md) · [About `docs/tests/`](about-docs-tests.md)
 
 Authors and contributors should follow this template for every file under [`docs/tests/`](../tests/).
 

@@ -1,6 +1,6 @@
 # About `docs/tests/`
 
-[← Chapter 4 overview](../04-mcp-security-testing.md)
+[← Chapter 4 overview](README.md)
 
 The [`docs/tests/`](../tests/) directory is the **executable body** of MCP Security Testing Guide (MCPSTG) Chapter 4. This page explains what lives there, how it connects to the narrative in this chapter, and how to use it during an assessment.
 
@@ -10,8 +10,8 @@ The [`docs/tests/`](../tests/) directory is the **executable body** of MCP Secur
 
 ```
 docs/
-├── 04-mcp-security-testing.md          ← Chapter hub (index + navigation)
-├── 04-mcp-security-testing/            ← Category guides (this folder)
+├── 04-mcp-security-testing/            ← Chapter 4 (this folder)
+│   ├── README.md                       ← Chapter hub (index + navigation)
 │   ├── about-docs-tests.md             ← You are here
 │   ├── 4.01-information-gathering.md   ← Category narrative + test table
 │   └── …
@@ -87,7 +87,7 @@ Running `python3 scripts/bootstrap_tests.py` refreshes skeletons and `index.json
 
 ## How to navigate from Chapter 4
 
-1. Start at [Chapter 4 overview](../04-mcp-security-testing.md) for the full category list.
+1. Start at [Chapter 4 overview](README.md) for the full category list.
 2. Open the **category guide** (for example [4.5 Tool Security](4.05-tool-security.md)) to understand scope and priority.
 3. Follow the **Procedure** link to the file in `docs/tests/<CATEGORY>/`.
 4. Execute steps in an **authorized lab** only; report per [Chapter 5 — Reporting](../05-reporting.md).
