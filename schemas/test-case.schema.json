@@ -26,7 +26,14 @@
       "type": "string",
       "enum": ["Manual", "Automated", "Hybrid"]
     },
-    "file": { "type": "string", "pattern": "^docs/tests/[A-Z]+/MCPSTG-[A-Z]+-\\d{2}\\.md$" },
+    "file": {
+      "type": "string",
+      "pattern": "^docs/04-mcp-security-testing/4\\.\\d{2}-[a-z0-9-]+\\.md$"
+    },
+    "anchor": {
+      "type": "string",
+      "pattern": "^mcpstg-[a-z]+-\\d{2}$"
+    },
     "mappings": {
       "type": "object",
       "additionalProperties": true,
@@ -40,5 +47,5 @@
       }
     }
   },
-  "required": ["id", "title", "category", "risk", "testingType", "file"]
+  "required": ["id", "title", "category", "risk", "testingType", "file", "anchor"]
 }

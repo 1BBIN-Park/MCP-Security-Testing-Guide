@@ -1,18 +1,18 @@
 # Test ID Taxonomy
 
-[← Chapter 4 overview](README.md) · [About `docs/tests/`](about-docs-tests.md)
+[← Chapter 4 overview](README.md) · [About test procedures](about-docs-tests.md)
 
-Every test in [`docs/tests/`](../tests/) uses the ID format **`MCPSTG-<CATEGORY>-<NN>`**. This page defines prefixes, numbering rules, and the category-to-ID matrix.
+Every MCPSTG test uses the ID format **`MCPSTG-<CATEGORY>-<NN>`**. Tests are **explained in sections 4.1–4.19** with example MCP snippets on each page.
 
 ## ID format
 
 ```
 MCPSTG-<CATEGORY>-<NN>
          │            └── two-digit sequence per category (01, 02, …)
-         └── four-letter category code (matches folder under docs/tests/)
+         └── four-letter category code (matches subfolder under this chapter)
 ```
 
-Example: `MCPSTG-TOOL-03` → procedure at [`docs/tests/TOOL/MCPSTG-TOOL-03.md`](../tests/TOOL/MCPSTG-TOOL-03.md).
+Example: `MCPSTG-TOOL-03` → [4.5 Tool Security](4.05-tool-security.md#mcpstg-tool-03).
 
 ## Prefix reference
 

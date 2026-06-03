@@ -8,16 +8,16 @@
 
 ## Test case files
 
-- One file per test: `docs/tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md`.
-- Use the template sections defined in [docs/04-mcp-security-testing/test-case-format.md](docs/04-mcp-security-testing/test-case-format.md) (Individual Test Case Format).
+- **Canonical location:** tests live in [Chapter 4 section pages](docs/04-mcp-security-testing/README.md) (`4.01`–`4.19`), embedded under **Test cases**.
+- Use the template in [docs/04-mcp-security-testing/test-case-format.md](docs/04-mcp-security-testing/test-case-format.md)
 - Use placeholders only: `<TEST_TOOL_NAME>`, `<TEST_RESOURCE>`, `<TEST_WORKSPACE>`, `<TEST_USER>`, `<AUTHORIZED_LAB_SERVER>`, etc.
 - **Never** document steps that target real organizations, customers, or non-lab endpoints.
 
 ## Taxonomy rules
 
-- **One primary prefix per file** (the folder name matches the ID prefix).
-- **Input validation** tests use `MCPSTG-INPV-*` under `docs/tests/INPV/`.
-- **Output handling** tests use `MCPSTG-OUTV-*` under `docs/tests/OUTV/`.
+- **One primary prefix per test** (the category code matches the ID prefix).
+- **Input validation** tests use `MCPSTG-INPV-*` in [4.10 Input Validation](docs/04-mcp-security-testing/4.10-input-validation.md).
+- **Output handling** tests use `MCPSTG-OUTV-*` in [4.11 Output Handling](docs/04-mcp-security-testing/4.11-output-handling.md).
 - New categories (`TRNS`, `GW`, `SECR`, `ABUS`, `PRVC`) follow the same numbering pattern.
 
 ## Mappings discipline
@@ -30,20 +30,13 @@
 
 When adding or renaming a test:
 
-1. Add or update `docs/tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md`.
-2. Update [index.json](index.json) with `id`, `title`, `category`, `risk`, `testingType`, `file`, and optional mappings.
-
-## Regenerating skeletons (`scripts/bootstrap_tests.py`)
-
-- `python3 scripts/bootstrap_tests.py` — refreshes `index.json` and writes **skeleton** markdown for any test not listed in `HAND_AUTHORED`, or for curated IDs whose files are **missing**.
-- Curated tests (expanded prose) are **skipped** when the file already exists, so normal runs do not erase hand-written content.
-- `python3 scripts/bootstrap_tests.py --force` — overwrites **all** test markdown from the skeleton template. Use only when you intend to reset prose; back up or commit first.
-
-When you fully author a new test, add `(CATEGORY, N)` to `HAND_AUTHORED` in the script (or accept that the next non-force run may overwrite a file you meant to keep—if it is not in the preserve set).
+1. Add or update the test block in the matching section file (`4.01`–`4.19`).
+2. Update the **Test cases** summary table in that section.
+3. Update [index.json](index.json) with `id`, `title`, `category`, `risk`, `testingType`, `file`, `anchor`, and optional mappings.
 
 ## Optional metadata block
 
-You may add YAML front matter at the top of a test file for tooling. If present, it should align with [schemas/test-case.schema.json](schemas/test-case.schema.json).
+You may add YAML front matter at the top of a test block for tooling. If present, it should align with [schemas/test-case.schema.json](schemas/test-case.schema.json).
 
 ## Reviews
 

@@ -1,8 +1,8 @@
 # How to Run MCPSTG Tests
 
-[← Chapter 4 overview](README.md) · [About `docs/tests/`](about-docs-tests.md)
+[← Chapter 4 overview](README.md) · [About test procedures](about-docs-tests.md)
 
-This page describes a practical workflow for using procedures under [`docs/tests/`](../tests/) during an authorized MCP security assessment.
+This page describes a practical workflow for running tests explained in **sections 4.1–4.19** during an authorized MCP security assessment.
 
 ## Before you start
 
@@ -37,9 +37,9 @@ Use the chapter hub risk signals:
 
 Each [category guide](4.01-information-gathering.md) explains when that family of tests matters most.
 
-## Step 3: Open the procedure file
+## Step 3: Work through the test in its section
 
-From a category guide table, click the **Procedure** link (for example [`MCPSTG-AUTHZ-02`](../tests/AUTHZ/MCPSTG-AUTHZ-02.md)).
+Open the category guide (for example [4.4 Authorization](4.04-authorization-permission.md)), use the **View** link in the table or scroll to **Test cases**, and follow the explained steps for that ID (for example [MCPSTG-AUTHZ-02](4.04-authorization-permission.md#mcpstg-authz-02)).
 
 Work through sections in order:
 
@@ -88,4 +88,4 @@ The **Type** column in each category table comes from [`index.json`](../../index
 
 ## Tooling
 
-See [Appendix F — Testing Tools](../appendix-f-testing-tools.md) and [`scripts/bootstrap_tests.py`](../../scripts/bootstrap_tests.py) for repository maintenance tooling.
+See [Appendix F — Testing Tools](../appendix-f-testing-tools.md) and [`index.json`](../../index.json) for the machine-readable test catalog.

@@ -1,63 +1,63 @@
 # Test Case Format and Maintenance
 
-[← Chapter 4 overview](README.md) · [About `docs/tests/`](about-docs-tests.md)
+[← Chapter 4 overview](README.md) · [About test procedures](about-docs-tests.md)
 
-Authors and contributors should follow this template for every file under [`docs/tests/`](../tests/).
+Authors and contributors should follow this template when adding or editing tests in the matching [Chapter 4 section](README.md) (4.1–4.19).
 
 ## Required sections
 
-Each procedure file must include these sections (heading levels may vary for rendering, but content must exist):
+Each test block within a section page must include these sections (as `####` headings under `### MCPSTG-CATEGORY-NN`):
 
 ```markdown
-# <Test Name>
+### MCPSTG-CATEGORY-NN — <Test Name>
 
-ID: MCPSTG-CATEGORY-NN
+<a id="mcpstg-category-nn"></a>
 
-## Summary
+#### Summary
 ...
 
-## Scenario
+#### Scenario
 ...
 
-## Test Objectives
+#### Test Objectives
 - ...
 
-## Preconditions
+#### Preconditions
 - ...
 
-## How to Test
+#### How to Test
 
-### 1. Manual Review
+##### 1. Manual Review
 ...
 
-### 2. Configuration Review
+##### 2. Configuration Review
 ...
 
-### 3. Runtime Testing
+##### 3. Runtime Testing
 ...
 
-### 4. Abuse Case Testing
+##### 4. Abuse Case Testing
 ...
 
-### 5. Log and Detection Review
+##### 5. Log and Detection Review
 ...
 
-## Test Data / Example Payloads
+#### Test Data / Example Payloads
 ...
 
-## Expected Results
+#### Expected Results
 ...
 
-## Remediation
+#### Remediation
 ...
 
-## Tools
+#### Tools
 ...
 
-## References
+#### References
 ...
 
-## Mapping
+#### Mapping
 - OWASP MCP Top 10: ...
 - OWASP LLM Top 10: ...
 - OWASP API Security Top 10: ...
@@ -81,35 +81,24 @@ Use synthetic placeholders—never real customer data or non-lab endpoints:
 | `<TEST_RESOURCE>` | Synthetic resource URI |
 | `<AUTHORIZED_LAB_SERVER>` | In-scope MCP server package |
 
-## File path convention
+## Where tests live
 
-```
-docs/tests/<CATEGORY>/MCPSTG-<CATEGORY>-NN.md
-```
+Tests are embedded in section pages, not separate files:
 
-Example: [`docs/tests/TOOL/MCPSTG-TOOL-01.md`](../tests/TOOL/MCPSTG-TOOL-01.md)
+| Category | Section file |
+|----------|--------------|
+| `INFO` | [4.01-information-gathering.md](4.01-information-gathering.md) |
+| `CONF` | [4.02-configuration-deployment.md](4.02-configuration-deployment.md) |
+| `AUTHN` | [4.03-identity-authentication.md](4.03-identity-authentication.md) |
+| … | … |
+| `PRVC` | [4.19-privacy-retention.md](4.19-privacy-retention.md) |
 
-## Skeleton vs. curated procedures
+Example: `MCPSTG-TOOL-01` lives in [4.5 Tool Security](4.05-tool-security.md#mcpstg-tool-01).
 
-Many files under `docs/tests/` are **skeleton** templates for workshops. **Curated** tests (expanded procedures and mappings) are listed in `HAND_AUTHORED` inside [`scripts/bootstrap_tests.py`](../../scripts/bootstrap_tests.py).
+## Maintainer workflow
 
-| Command | Behavior |
-|---------|----------|
-| `python3 scripts/bootstrap_tests.py` | Refreshes `index.json`; writes skeletons only for missing or non-curated files |
-| `python3 scripts/bootstrap_tests.py --force` | Overwrites **all** procedure markdown—use only when intentionally resetting content |
-
-When a test reaches reference quality, add `(CATEGORY, number)` to `HAND_AUTHORED` so normal bootstrap runs preserve it.
-
-## Optional metadata
-
-YAML front matter aligned with [`schemas/test-case.schema.json`](../../schemas/test-case.schema.json) is optional for tooling integration.
-
-## Index maintenance
-
-When adding or renaming a test:
-
-1. Add or update the markdown under `docs/tests/<CATEGORY>/`.
-2. Update [`index.json`](../../index.json) with `id`, `title`, `category`, `risk`, `testingType`, `file`, and mappings.
-3. Update the relevant [category guide](4.01-information-gathering.md) table (or regenerate via project scripts).
+1. Edit the test block in the matching section file (for example `4.05-tool-security.md`).
+2. Update the **Test cases** summary table in that section if title, risk, or type changed.
+3. Update [`index.json`](../../index.json) when adding or renaming tests (`id`, `title`, `category`, `risk`, `testingType`, `file`, `anchor`).
 
 See [CONTRIBUTING.md](../../CONTRIBUTING.md) for contribution rules.

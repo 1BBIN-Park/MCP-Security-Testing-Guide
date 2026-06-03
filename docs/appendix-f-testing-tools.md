@@ -30,5 +30,5 @@ Build or use a minimal MCP server with synthetic tools and resources. See [Appen
 
 ## Repository tooling
 
-- [`scripts/bootstrap_tests.py`](../scripts/bootstrap_tests.py) — regenerate skeleton tests and `index.json`.
+- [`index.json`](../index.json) — machine-readable catalog of all 79 MCPSTG tests (section file, anchor, risk, type).
 - [`schemas/test-case.schema.json`](../schemas/test-case.schema.json) — optional structured metadata for tests.

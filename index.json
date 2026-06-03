@@ -7,7 +7,7 @@
       "category": "INFO",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/INFO/MCPSTG-INFO-01.md",
+      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -15,7 +15,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-info-01"
     },
     {
       "id": "MCPSTG-INFO-02",
@@ -23,7 +24,7 @@
       "category": "INFO",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/INFO/MCPSTG-INFO-02.md",
+      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -31,7 +32,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-info-02"
     },
     {
       "id": "MCPSTG-INFO-03",
@@ -39,7 +41,7 @@
       "category": "INFO",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/INFO/MCPSTG-INFO-03.md",
+      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -47,7 +49,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-info-03"
     },
     {
       "id": "MCPSTG-INFO-04",
@@ -55,7 +58,7 @@
       "category": "INFO",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/INFO/MCPSTG-INFO-04.md",
+      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -63,7 +66,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-info-04"
     },
     {
       "id": "MCPSTG-INFO-05",
@@ -71,7 +75,7 @@
       "category": "INFO",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/INFO/MCPSTG-INFO-05.md",
+      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -79,7 +83,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-info-05"
     },
     {
       "id": "MCPSTG-CONF-01",
@@ -87,7 +92,7 @@
       "category": "CONF",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/CONF/MCPSTG-CONF-01.md",
+      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -95,7 +100,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-conf-01"
     },
     {
       "id": "MCPSTG-CONF-02",
@@ -103,7 +109,7 @@
       "category": "CONF",
       "risk": "Critical",
       "testingType": "Manual",
-      "file": "docs/tests/CONF/MCPSTG-CONF-02.md",
+      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -111,7 +117,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-conf-02"
     },
     {
       "id": "MCPSTG-CONF-03",
@@ -119,7 +126,7 @@
       "category": "CONF",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/CONF/MCPSTG-CONF-03.md",
+      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -127,7 +134,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-conf-03"
     },
     {
       "id": "MCPSTG-CONF-04",
@@ -135,7 +143,7 @@
       "category": "CONF",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/CONF/MCPSTG-CONF-04.md",
+      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -143,7 +151,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-conf-04"
     },
     {
       "id": "MCPSTG-CONF-05",
@@ -151,7 +160,7 @@
       "category": "CONF",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/CONF/MCPSTG-CONF-05.md",
+      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -159,7 +168,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-conf-05"
     },
     {
       "id": "MCPSTG-AUTHN-01",
@@ -167,7 +177,7 @@
       "category": "AUTHN",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHN/MCPSTG-AUTHN-01.md",
+      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -175,7 +185,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authn-01"
     },
     {
       "id": "MCPSTG-AUTHN-02",
@@ -183,7 +194,7 @@
       "category": "AUTHN",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHN/MCPSTG-AUTHN-02.md",
+      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -191,7 +202,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authn-02"
     },
     {
       "id": "MCPSTG-AUTHN-03",
@@ -199,7 +211,7 @@
       "category": "AUTHN",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/AUTHN/MCPSTG-AUTHN-03.md",
+      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -207,7 +219,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authn-03"
     },
     {
       "id": "MCPSTG-AUTHN-04",
@@ -215,7 +228,7 @@
       "category": "AUTHN",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHN/MCPSTG-AUTHN-04.md",
+      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -223,7 +236,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authn-04"
     },
     {
       "id": "MCPSTG-AUTHZ-01",
@@ -231,7 +245,7 @@
       "category": "AUTHZ",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHZ/MCPSTG-AUTHZ-01.md",
+      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -239,7 +253,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authz-01"
     },
     {
       "id": "MCPSTG-AUTHZ-02",
@@ -247,7 +262,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHZ/MCPSTG-AUTHZ-02.md",
+      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -255,7 +270,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authz-02"
     },
     {
       "id": "MCPSTG-AUTHZ-03",
@@ -263,7 +279,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHZ/MCPSTG-AUTHZ-03.md",
+      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -271,7 +287,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authz-03"
     },
     {
       "id": "MCPSTG-AUTHZ-04",
@@ -279,7 +296,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHZ/MCPSTG-AUTHZ-04.md",
+      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -287,7 +304,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authz-04"
     },
     {
       "id": "MCPSTG-AUTHZ-05",
@@ -295,7 +313,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AUTHZ/MCPSTG-AUTHZ-05.md",
+      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -303,7 +321,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-authz-05"
     },
     {
       "id": "MCPSTG-TOOL-01",
@@ -311,7 +330,7 @@
       "category": "TOOL",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/TOOL/MCPSTG-TOOL-01.md",
+      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -319,7 +338,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-tool-01"
     },
     {
       "id": "MCPSTG-TOOL-02",
@@ -327,7 +347,7 @@
       "category": "TOOL",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/TOOL/MCPSTG-TOOL-02.md",
+      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -335,7 +355,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-tool-02"
     },
     {
       "id": "MCPSTG-TOOL-03",
@@ -343,7 +364,7 @@
       "category": "TOOL",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/TOOL/MCPSTG-TOOL-03.md",
+      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -351,7 +372,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-tool-03"
     },
     {
       "id": "MCPSTG-TOOL-04",
@@ -359,7 +381,7 @@
       "category": "TOOL",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/TOOL/MCPSTG-TOOL-04.md",
+      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -367,7 +389,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-tool-04"
     },
     {
       "id": "MCPSTG-TOOL-05",
@@ -375,7 +398,7 @@
       "category": "TOOL",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/TOOL/MCPSTG-TOOL-05.md",
+      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -383,7 +406,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-tool-05"
     },
     {
       "id": "MCPSTG-TOOL-06",
@@ -391,7 +415,7 @@
       "category": "TOOL",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/TOOL/MCPSTG-TOOL-06.md",
+      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -399,7 +423,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-tool-06"
     },
     {
       "id": "MCPSTG-RSRC-01",
@@ -407,7 +432,7 @@
       "category": "RSRC",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/RSRC/MCPSTG-RSRC-01.md",
+      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -415,7 +440,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-rsrc-01"
     },
     {
       "id": "MCPSTG-RSRC-02",
@@ -423,7 +449,7 @@
       "category": "RSRC",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/RSRC/MCPSTG-RSRC-02.md",
+      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -431,7 +457,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-rsrc-02"
     },
     {
       "id": "MCPSTG-RSRC-03",
@@ -439,7 +466,7 @@
       "category": "RSRC",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/RSRC/MCPSTG-RSRC-03.md",
+      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -447,7 +474,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-rsrc-03"
     },
     {
       "id": "MCPSTG-RSRC-04",
@@ -455,7 +483,7 @@
       "category": "RSRC",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/RSRC/MCPSTG-RSRC-04.md",
+      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -463,7 +491,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-rsrc-04"
     },
     {
       "id": "MCPSTG-RSRC-05",
@@ -471,7 +500,7 @@
       "category": "RSRC",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/RSRC/MCPSTG-RSRC-05.md",
+      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -479,7 +508,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-rsrc-05"
     },
     {
       "id": "MCPSTG-PRMT-01",
@@ -487,7 +517,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/PRMT/MCPSTG-PRMT-01.md",
+      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -495,7 +525,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prmt-01"
     },
     {
       "id": "MCPSTG-PRMT-02",
@@ -503,7 +534,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/PRMT/MCPSTG-PRMT-02.md",
+      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -511,7 +542,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prmt-02"
     },
     {
       "id": "MCPSTG-PRMT-03",
@@ -519,7 +551,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/PRMT/MCPSTG-PRMT-03.md",
+      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -527,7 +559,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prmt-03"
     },
     {
       "id": "MCPSTG-PRMT-04",
@@ -535,7 +568,7 @@
       "category": "PRMT",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/PRMT/MCPSTG-PRMT-04.md",
+      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -543,7 +576,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prmt-04"
     },
     {
       "id": "MCPSTG-PRMT-05",
@@ -551,7 +585,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/PRMT/MCPSTG-PRMT-05.md",
+      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -559,7 +593,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prmt-05"
     },
     {
       "id": "MCPSTG-CTX-01",
@@ -567,7 +602,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/CTX/MCPSTG-CTX-01.md",
+      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -575,7 +610,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-ctx-01"
     },
     {
       "id": "MCPSTG-CTX-02",
@@ -583,7 +619,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/CTX/MCPSTG-CTX-02.md",
+      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -591,7 +627,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-ctx-02"
     },
     {
       "id": "MCPSTG-CTX-03",
@@ -599,7 +636,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/CTX/MCPSTG-CTX-03.md",
+      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -607,7 +644,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-ctx-03"
     },
     {
       "id": "MCPSTG-CTX-04",
@@ -615,7 +653,7 @@
       "category": "CTX",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/CTX/MCPSTG-CTX-04.md",
+      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -623,7 +661,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-ctx-04"
     },
     {
       "id": "MCPSTG-CTX-05",
@@ -631,7 +670,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/CTX/MCPSTG-CTX-05.md",
+      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -639,7 +678,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-ctx-05"
     },
     {
       "id": "MCPSTG-AGNT-01",
@@ -647,7 +687,7 @@
       "category": "AGNT",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/AGNT/MCPSTG-AGNT-01.md",
+      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -655,7 +695,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-agnt-01"
     },
     {
       "id": "MCPSTG-AGNT-02",
@@ -663,7 +704,7 @@
       "category": "AGNT",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AGNT/MCPSTG-AGNT-02.md",
+      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -671,7 +712,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-agnt-02"
     },
     {
       "id": "MCPSTG-AGNT-03",
@@ -679,7 +721,7 @@
       "category": "AGNT",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/AGNT/MCPSTG-AGNT-03.md",
+      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -687,7 +729,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-agnt-03"
     },
     {
       "id": "MCPSTG-AGNT-04",
@@ -695,7 +738,7 @@
       "category": "AGNT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/AGNT/MCPSTG-AGNT-04.md",
+      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -703,7 +746,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-agnt-04"
     },
     {
       "id": "MCPSTG-AGNT-05",
@@ -711,7 +755,7 @@
       "category": "AGNT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/AGNT/MCPSTG-AGNT-05.md",
+      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -719,7 +763,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-agnt-05"
     },
     {
       "id": "MCPSTG-INPV-01",
@@ -727,7 +772,7 @@
       "category": "INPV",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/INPV/MCPSTG-INPV-01.md",
+      "file": "docs/04-mcp-security-testing/4.10-input-validation.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -735,7 +780,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-inpv-01"
     },
     {
       "id": "MCPSTG-INPV-02",
@@ -743,7 +789,7 @@
       "category": "INPV",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/INPV/MCPSTG-INPV-02.md",
+      "file": "docs/04-mcp-security-testing/4.10-input-validation.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -751,7 +797,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-inpv-02"
     },
     {
       "id": "MCPSTG-INPV-03",
@@ -759,7 +806,7 @@
       "category": "INPV",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/INPV/MCPSTG-INPV-03.md",
+      "file": "docs/04-mcp-security-testing/4.10-input-validation.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -767,7 +814,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-inpv-03"
     },
     {
       "id": "MCPSTG-OUTV-01",
@@ -775,7 +823,7 @@
       "category": "OUTV",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/OUTV/MCPSTG-OUTV-01.md",
+      "file": "docs/04-mcp-security-testing/4.11-output-handling.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -783,7 +831,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-outv-01"
     },
     {
       "id": "MCPSTG-OUTV-02",
@@ -791,7 +840,7 @@
       "category": "OUTV",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/OUTV/MCPSTG-OUTV-02.md",
+      "file": "docs/04-mcp-security-testing/4.11-output-handling.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -799,7 +848,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-outv-02"
     },
     {
       "id": "MCPSTG-LOG-01",
@@ -807,7 +857,7 @@
       "category": "LOG",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/LOG/MCPSTG-LOG-01.md",
+      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -815,7 +865,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-log-01"
     },
     {
       "id": "MCPSTG-LOG-02",
@@ -823,7 +874,7 @@
       "category": "LOG",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/LOG/MCPSTG-LOG-02.md",
+      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -831,7 +882,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-log-02"
     },
     {
       "id": "MCPSTG-LOG-03",
@@ -839,7 +891,7 @@
       "category": "LOG",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/LOG/MCPSTG-LOG-03.md",
+      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -847,7 +899,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-log-03"
     },
     {
       "id": "MCPSTG-LOG-04",
@@ -855,7 +908,7 @@
       "category": "LOG",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/LOG/MCPSTG-LOG-04.md",
+      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -863,7 +916,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-log-04"
     },
     {
       "id": "MCPSTG-LOG-05",
@@ -871,7 +925,7 @@
       "category": "LOG",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/LOG/MCPSTG-LOG-05.md",
+      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -879,7 +933,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-log-05"
     },
     {
       "id": "MCPSTG-SUPP-01",
@@ -887,7 +942,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/SUPP/MCPSTG-SUPP-01.md",
+      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -895,7 +950,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-supp-01"
     },
     {
       "id": "MCPSTG-SUPP-02",
@@ -903,7 +959,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Automated",
-      "file": "docs/tests/SUPP/MCPSTG-SUPP-02.md",
+      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -911,7 +967,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-supp-02"
     },
     {
       "id": "MCPSTG-SUPP-03",
@@ -919,7 +976,7 @@
       "category": "SUPP",
       "risk": "Critical",
       "testingType": "Manual",
-      "file": "docs/tests/SUPP/MCPSTG-SUPP-03.md",
+      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -927,7 +984,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-supp-03"
     },
     {
       "id": "MCPSTG-SUPP-04",
@@ -935,7 +993,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/SUPP/MCPSTG-SUPP-04.md",
+      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -943,7 +1001,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-supp-04"
     },
     {
       "id": "MCPSTG-SUPP-05",
@@ -951,7 +1010,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/SUPP/MCPSTG-SUPP-05.md",
+      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -959,7 +1018,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-supp-05"
     },
     {
       "id": "MCPSTG-GOV-01",
@@ -967,7 +1027,7 @@
       "category": "GOV",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/GOV/MCPSTG-GOV-01.md",
+      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -975,7 +1035,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gov-01"
     },
     {
       "id": "MCPSTG-GOV-02",
@@ -983,7 +1044,7 @@
       "category": "GOV",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/GOV/MCPSTG-GOV-02.md",
+      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -991,7 +1052,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gov-02"
     },
     {
       "id": "MCPSTG-GOV-03",
@@ -999,7 +1061,7 @@
       "category": "GOV",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/GOV/MCPSTG-GOV-03.md",
+      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1007,7 +1069,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gov-03"
     },
     {
       "id": "MCPSTG-GOV-04",
@@ -1015,7 +1078,7 @@
       "category": "GOV",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/GOV/MCPSTG-GOV-04.md",
+      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1023,7 +1086,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gov-04"
     },
     {
       "id": "MCPSTG-GOV-05",
@@ -1031,7 +1095,7 @@
       "category": "GOV",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/tests/GOV/MCPSTG-GOV-05.md",
+      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1039,7 +1103,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gov-05"
     },
     {
       "id": "MCPSTG-TRNS-01",
@@ -1047,7 +1112,7 @@
       "category": "TRNS",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/TRNS/MCPSTG-TRNS-01.md",
+      "file": "docs/04-mcp-security-testing/4.15-transport-channel.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1055,7 +1120,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-trns-01"
     },
     {
       "id": "MCPSTG-TRNS-02",
@@ -1063,7 +1129,7 @@
       "category": "TRNS",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/TRNS/MCPSTG-TRNS-02.md",
+      "file": "docs/04-mcp-security-testing/4.15-transport-channel.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1071,7 +1137,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-trns-02"
     },
     {
       "id": "MCPSTG-TRNS-03",
@@ -1079,7 +1146,7 @@
       "category": "TRNS",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/TRNS/MCPSTG-TRNS-03.md",
+      "file": "docs/04-mcp-security-testing/4.15-transport-channel.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1087,7 +1154,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-trns-03"
     },
     {
       "id": "MCPSTG-GW-01",
@@ -1095,7 +1163,7 @@
       "category": "GW",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/GW/MCPSTG-GW-01.md",
+      "file": "docs/04-mcp-security-testing/4.16-gateway-egress.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1103,7 +1171,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gw-01"
     },
     {
       "id": "MCPSTG-GW-02",
@@ -1111,7 +1180,7 @@
       "category": "GW",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/GW/MCPSTG-GW-02.md",
+      "file": "docs/04-mcp-security-testing/4.16-gateway-egress.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1119,7 +1188,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gw-02"
     },
     {
       "id": "MCPSTG-GW-03",
@@ -1127,7 +1197,7 @@
       "category": "GW",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/GW/MCPSTG-GW-03.md",
+      "file": "docs/04-mcp-security-testing/4.16-gateway-egress.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1135,7 +1205,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-gw-03"
     },
     {
       "id": "MCPSTG-SECR-01",
@@ -1143,7 +1214,7 @@
       "category": "SECR",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/tests/SECR/MCPSTG-SECR-01.md",
+      "file": "docs/04-mcp-security-testing/4.17-secrets-credentials.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1151,7 +1222,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-secr-01"
     },
     {
       "id": "MCPSTG-SECR-02",
@@ -1159,7 +1231,7 @@
       "category": "SECR",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/SECR/MCPSTG-SECR-02.md",
+      "file": "docs/04-mcp-security-testing/4.17-secrets-credentials.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1167,7 +1239,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-secr-02"
     },
     {
       "id": "MCPSTG-SECR-03",
@@ -1175,7 +1248,7 @@
       "category": "SECR",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/SECR/MCPSTG-SECR-03.md",
+      "file": "docs/04-mcp-security-testing/4.17-secrets-credentials.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1183,7 +1256,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-secr-03"
     },
     {
       "id": "MCPSTG-ABUS-01",
@@ -1191,7 +1265,7 @@
       "category": "ABUS",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/tests/ABUS/MCPSTG-ABUS-01.md",
+      "file": "docs/04-mcp-security-testing/4.18-resilience-abuse.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1199,7 +1273,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-abus-01"
     },
     {
       "id": "MCPSTG-ABUS-02",
@@ -1207,7 +1282,7 @@
       "category": "ABUS",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/tests/ABUS/MCPSTG-ABUS-02.md",
+      "file": "docs/04-mcp-security-testing/4.18-resilience-abuse.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1215,7 +1290,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-abus-02"
     },
     {
       "id": "MCPSTG-PRVC-01",
@@ -1223,7 +1299,7 @@
       "category": "PRVC",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/PRVC/MCPSTG-PRVC-01.md",
+      "file": "docs/04-mcp-security-testing/4.19-privacy-retention.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1231,7 +1307,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prvc-01"
     },
     {
       "id": "MCPSTG-PRVC-02",
@@ -1239,7 +1316,7 @@
       "category": "PRVC",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/PRVC/MCPSTG-PRVC-02.md",
+      "file": "docs/04-mcp-security-testing/4.19-privacy-retention.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1247,7 +1324,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prvc-02"
     },
     {
       "id": "MCPSTG-PRVC-03",
@@ -1255,7 +1333,7 @@
       "category": "PRVC",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/tests/PRVC/MCPSTG-PRVC-03.md",
+      "file": "docs/04-mcp-security-testing/4.19-privacy-retention.md",
       "mappings": {
         "owaspMcpTop10": "N/A",
         "owaspLlmTop10": "TBD",
@@ -1263,7 +1341,8 @@
         "owaspAsvs": "TBD",
         "cwe": "TBD",
         "mitreAtlas": "TBD"
-      }
+      },
+      "anchor": "mcpstg-prvc-03"
     }
   ]
 }
