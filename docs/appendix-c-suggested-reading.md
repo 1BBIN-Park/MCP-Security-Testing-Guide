@@ -1,4 +1,4 @@
-# Appendix E: Suggested Reading
+# Appendix C: Suggested Reading
 
 Curated references for MCP security testing. Prefer **versioned** specifications and your organization's adopted standards.
 
