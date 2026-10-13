@@ -23,6 +23,23 @@ This work is licensed under [GPL-3.0](LICENSE).
 13. [Checklists](<13. Checklists.md>)
 14. [Glossary](<14. Glossary.md>)
 
+## MCP security testing
+
+The test catalog is in [`docs/`](docs/04-mcp-security-testing/README.md). It uses an OWASP Web Security Testing Guide–style layout: numbered narrative chapters and **79 tests** in sections 4.1–4.19.
+
+| # | Chapter | What it contains |
+| --- | --- | --- |
+| 1 | [Frontispiece](docs/01-frontispiece.md) | Title, version, how to read the guide |
+| 2 | [Introduction](docs/02-introduction.md) | MCP scope, audience, safe testing rules |
+| 3 | [The MCP Security Testing Framework](docs/03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
+| 4 | [MCP Security Testing](docs/04-mcp-security-testing/README.md) | Tests explained in sections 4.1–4.19 |
+| 5 | [Reporting](docs/05-reporting.md) | Finding format, evidence, severity |
+| — | [MCP Threats and Attack Patterns](docs/mcp-threats-and-attack-patterns.md) | Canonical attack patterns, public samples, and defenses |
+
+[Contributing](CONTRIBUTING.md) describes how to edit section pages. [index.json](index.json) is the machine-readable catalog of test cases. Test IDs use the form `MCPSTG-<CATEGORY>-<NUMBER>`.
+
+This guide is educational material. Do not use it to test systems without explicit written authorization. Use synthetic lab environments and placeholders.
+
 ## Related OWASP projects
 
 - [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/)

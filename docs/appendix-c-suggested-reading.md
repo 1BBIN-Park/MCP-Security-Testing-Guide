@@ -1,0 +1,25 @@
+# Appendix C: Suggested Reading
+
+Curated references for MCP security testing. Prefer **versioned** specifications and your organization's adopted standards.
+
+## MCP and agent integration
+
+- [Model Context Protocol](https://modelcontextprotocol.io/) — specification and documentation (pin the version you test against).
+- OWASP **LLM Top 10** for LLM Applications.
+- MITRE **ATLAS** (adversarial ML and agentic abuse patterns).
+
+## Classic application security (complementary)
+
+- OWASP **Web Security Testing Guide** (structure inspiration for this guide only — do not copy prose).
+- OWASP **API Security Top 10**.
+- OWASP **Application Security Verification Standard (ASVS)**.
+
+## Identity, transport, and supply chain
+
+- OAuth 2.0 / OIDC security best current practice (redirect URI, audience, refresh handling).
+- NIST and CIS guidance on secrets management and logging (organizational context).
+- SLSA, Sigstore, and SBOM practices for server packaging (`MCPSTG-SUPP-*`, `MCPSTG-GOV-*`).
+
+## Threat modeling narratives in this guide
+
+See [Appendix B — Sample Threat Scenarios](appendix-b-scenarios.md) for workshop-ready stories that link multiple test IDs.
