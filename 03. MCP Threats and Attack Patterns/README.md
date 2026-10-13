@@ -137,9 +137,3 @@ Approval prompts have to be understandable without specialist knowledge. Logs re
 | Elicitation form that asks for a token, or a client that prefetches the elicitation URL | [3.8](3.08-context-memory.md#elicitation) |
 
 ---
-
-## Maintainers
-
-Edit tests directly in the matching section file (`3.01`–`3.19`) under **Test cases** when adding or renaming tests.
-
-See [About test procedures](about-docs-tests.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
