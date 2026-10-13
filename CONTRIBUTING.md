@@ -8,16 +8,16 @@
 
 ## Test case files
 
-- **Canonical location:** tests live in [Chapter 4 section pages](docs/04-mcp-security-testing/README.md) (`4.01`–`4.19`), embedded under **Test cases**.
-- Use the template in [docs/04-mcp-security-testing/test-case-format.md](docs/04-mcp-security-testing/test-case-format.md)
+- **Canonical location:** tests live in [Chapter 4 section pages](04-mcp-security-testing/README.md) (`4.01`–`4.19`), embedded under **Test cases**.
+- Use the template in [04-mcp-security-testing/test-case-format.md](04-mcp-security-testing/test-case-format.md)
 - Use placeholders only: `<TEST_TOOL_NAME>`, `<TEST_RESOURCE>`, `<TEST_WORKSPACE>`, `<TEST_USER>`, `<AUTHORIZED_LAB_SERVER>`, etc.
 - **Never** document steps that target real organizations, customers, or non-lab endpoints.
 
 ## Taxonomy rules
 
 - **One primary prefix per test** (the category code matches the ID prefix).
-- **Input validation** tests use `MCPSTG-INPV-*` in [4.10 Input Validation](docs/04-mcp-security-testing/4.10-input-validation.md).
-- **Output handling** tests use `MCPSTG-OUTV-*` in [4.11 Output Handling](docs/04-mcp-security-testing/4.11-output-handling.md).
+- **Input validation** tests use `MCPSTG-INPV-*` in [4.10 Input Validation](04-mcp-security-testing/4.10-input-validation.md).
+- **Output handling** tests use `MCPSTG-OUTV-*` in [4.11 Output Handling](04-mcp-security-testing/4.11-output-handling.md).
 - New categories (`TRNS`, `GW`, `SECR`, `ABUS`, `PRVC`) follow the same numbering pattern.
 
 ## Mappings discipline

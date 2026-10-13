@@ -25,16 +25,16 @@ This work is licensed under [GPL-3.0](LICENSE).
 
 ## MCP security testing
 
-The test catalog is in [`docs/`](docs/04-mcp-security-testing/README.md). It uses an OWASP Web Security Testing Guide–style layout: numbered narrative chapters and **79 tests** in sections 4.1–4.19.
+The test catalog is in [Chapter 4](04-mcp-security-testing/README.md). It uses an OWASP Web Security Testing Guide–style layout: numbered narrative chapters and **79 tests** in sections 4.1–4.19.
 
 | # | Chapter | What it contains |
 | --- | --- | --- |
-| 1 | [Frontispiece](docs/01-frontispiece.md) | Title, version, how to read the guide |
-| 2 | [Introduction](docs/02-introduction.md) | MCP scope, audience, safe testing rules |
-| 3 | [The MCP Security Testing Framework](docs/03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
-| 4 | [MCP Security Testing](docs/04-mcp-security-testing/README.md) | Tests explained in sections 4.1–4.19 |
-| 5 | [Reporting](docs/05-reporting.md) | Finding format, evidence, severity |
-| — | [MCP Threats and Attack Patterns](docs/mcp-threats-and-attack-patterns.md) | Canonical attack patterns, public samples, and defenses |
+| 1 | [Frontispiece](01-frontispiece.md) | Title, version, how to read the guide |
+| 2 | [Introduction](02-introduction.md) | MCP scope, audience, safe testing rules |
+| 3 | [The MCP Security Testing Framework](03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
+| 4 | [MCP Security Testing](04-mcp-security-testing/README.md) | Tests explained in sections 4.1–4.19 |
+| 5 | [Reporting](05-reporting.md) | Finding format, evidence, severity |
+| — | [MCP Threats and Attack Patterns](mcp-threats-and-attack-patterns.md) | Canonical attack patterns, public samples, and defenses |
 
 [Contributing](CONTRIBUTING.md) describes how to edit section pages. [index.json](index.json) is the machine-readable catalog of test cases. Test IDs use the form `MCPSTG-<CATEGORY>-<NUMBER>`.
 

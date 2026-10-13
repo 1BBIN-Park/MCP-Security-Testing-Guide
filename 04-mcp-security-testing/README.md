@@ -4,7 +4,7 @@ This chapter is the **MCP equivalent of OWASP WSTG Chapter 4**. It defines **79*
 
 **Every test is explained in sections 4.1–4.19 on this chapter’s pages**—including summary, scenario, steps, **MCP code snippets** (JSON-RPC, host config, lab scripts), expected results, and remediation. All test documentation lives in this folder; there is no separate reader-facing test section elsewhere in the guide.
 
-The machine-readable catalog is [`index.json`](../../index.json).
+The machine-readable catalog is [`index.json`](../index.json).
 
 ---
 
@@ -77,6 +77,6 @@ The machine-readable catalog is [`index.json`](../../index.json).
 
 ## Maintainers
 
-Edit tests directly in the matching section file (`4.01`–`4.19`) under **Test cases**, then update [`index.json`](../../index.json) when adding or renaming tests.
+Edit tests directly in the matching section file (`4.01`–`4.19`) under **Test cases**, then update [`index.json`](../index.json) when adding or renaming tests.
 
-See [About test procedures](about-docs-tests.md) and [CONTRIBUTING.md](../../CONTRIBUTING.md).
+See [About test procedures](about-docs-tests.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).

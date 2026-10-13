@@ -14,9 +14,9 @@ This repository separates:
 
 | Part | Location |
 |------|----------|
-| Narrative chapters | [`docs/`](.) |
+| Narrative chapters | [repository root](.) |
 | MCP security tests (sections 4.1–4.19) | [Chapter 4](04-mcp-security-testing/README.md) |
-| Machine-readable catalog | [`index.json`](../index.json) |
+| Machine-readable catalog | [`index.json`](index.json) |
 
 ## How to read this guide
 

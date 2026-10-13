@@ -99,6 +99,6 @@ Example: `MCPSTG-TOOL-01` lives in [4.5 Tool Security](4.05-tool-security.md#mcp
 
 1. Edit the test block in the matching section file (for example `4.05-tool-security.md`).
 2. Update the **Test cases** summary table in that section if title, risk, or type changed.
-3. Update [`index.json`](../../index.json) when adding or renaming tests (`id`, `title`, `category`, `risk`, `testingType`, `file`, `anchor`).
+3. Update [`index.json`](../index.json) when adding or renaming tests (`id`, `title`, `category`, `risk`, `testingType`, `file`, `anchor`).
 
-See [CONTRIBUTING.md](../../CONTRIBUTING.md) for contribution rules.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution rules.

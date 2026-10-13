@@ -30,7 +30,7 @@ Every category guide (`4.01` … `4.19`) follows the same pattern:
 ## Chapter 4 folder structure
 
 ```
-docs/04-mcp-security-testing/
+04-mcp-security-testing/
 ├── README.md                    ← Chapter hub
 ├── 4.01-information-gathering.md … 4.19-*.md   ← All tests live here
 ├── about-docs-tests.md
@@ -41,7 +41,7 @@ docs/04-mcp-security-testing/
 
 Section pages (`4.01`–`4.19`) are the **canonical source** for test content. Edit the matching section directly when updating a test.
 
-[`index.json`](../../index.json) lists IDs, risk, type, section file paths, and anchor IDs for tooling.
+[`index.json`](../index.json) lists IDs, risk, type, section file paths, and anchor IDs for tooling.
 
 ## Safe testing rules
 
