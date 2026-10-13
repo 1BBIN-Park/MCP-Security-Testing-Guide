@@ -69,16 +69,72 @@ This chapter is the **MCP equivalent of OWASP WSTG Chapter 4**. It defines **79*
 2. [MCP Fundamentals](<../02. MCP Fundamentals.md>)
 3. **MCP Threats and Attack Patterns** (this chapter). Supply chain is [section 3.13](3.13-supply-chain.md). Detection and SOC content is [section 3.12](3.12-logging-detection.md#detection-monitoring-and-soc-content).
 4. [Secure MCP Development](<../04. Secure MCP Development.md>)
-5. [MCP Client and Host Security](<../05. MCP Client and Host Security.md>)
-6. [MCP Gateways, Registries, and Enterprise Governance](<../06. MCP Gateways, Registries, and Enterprise Governance.md>)
-7. [MCP Incident Response](<../07. MCP Incident Response.md>)
-8. [MCP Security Taxonomy](<../08. MCP Security Taxonomy.md>)
-9. [Hacks, News, and Public Incidents](<../09. Hacks, News, and Public Incidents.md>)
-10. [Appendix A — Glossary](<../10. Appendix A - Glossary.md>)
-11. [Appendix B — Suggested Reading](<../11. Appendix B - Suggested Reading.md>)
-12. [Appendix C — Security Review](<../12. Appendix C - Security Review.md>)
+5. [MCP Security Taxonomy](<../05. MCP Security Taxonomy.md>)
+6. [Hacks, News, and Public Incidents](<../06. Hacks, News, and Public Incidents.md>)
+7. [Appendix A — Glossary](<../07. Appendix A - Glossary.md>)
+8. [Appendix B — Suggested Reading](<../08. Appendix B - Suggested Reading.md>)
+9. [Appendix C — Security Review](<../09. Appendix C - Security Review.md>)
 
-Review rows for servers, clients, governance, incident response, and authorized red-team tests sit in those chapters. [Appendix C](<../12. Appendix C - Security Review.md>) holds the status values, review flow, scorecard, and copy-paste review template.
+Host and client controls live in this chapter: configuration in [3.2](3.02-configuration-deployment.md#host-configuration-files), approval and workspace trust in [3.4](3.04-authorization-permission.md#tool-permission-ux), elicitation and multi-server isolation in [3.8](3.08-context-memory.md#elicitation). The [baseline](#host-and-client-baseline) is below. Gateway, registry, inventory, access-control, and SOC rows sit in sections [3.14](3.14-enterprise-governance.md#enterprise-governance-controls), [3.16](3.16-gateway-egress.md#mcp-gateway-architecture), [3.4](3.04-authorization-permission.md#role-based-access-control), and [3.12](3.12-logging-detection.md#soc-and-incident-readiness-review). Incident response rows are in [section 3.12](3.12-logging-detection.md#during-an-incident). [Appendix C](<../09. Appendix C - Security Review.md>) holds the status values, review flow, scorecard, and copy-paste review template.
+
+## Host and client baseline
+
+Use this when evaluating an MCP client, IDE integration, desktop host, or agent platform. The detailed checks are in the sections linked from the table.
+
+| Security area | Minimum expectation | Stronger practice | Where |
+| --- | --- | --- | --- |
+| Server installation | The user can see installed servers and the full launch command. | Provenance, signatures, digest pinning, and a consent dialog that cannot be skipped. | [3.2](3.02-configuration-deployment.md#host-configuration-files) |
+| Local process | The user knows the server runs as them. | Container or OS sandbox, scrubbed environment, per-server token, egress off unless required. | [3.2](3.02-configuration-deployment.md#local-servers-are-processes) |
+| Config locations | Review includes the user file and any workspace file. | Fleet inventory of known paths. Discovery of other hosts’ configs is off. | [3.2](3.02-configuration-deployment.md#where-host-configs-live) |
+| Tool discovery | The user can inspect tools and descriptions. | Tool diffing on `tools/list_changed`, including annotations. | [3.5](3.05-tool-security.md) |
+| Permissions | Risky tools require approval. | Per-tool, per-action, per-resource policy. Annotations never override policy. | [3.4](3.04-authorization-permission.md#tool-permission-ux) |
+| Filesystem access | Workspace-limited access. | Read-only by default, with secret-aware deny rules. Roots are not the control. | [3.4](3.04-authorization-permission.md#roots-are-not-an-access-control-decision) |
+| Terminal access | Per-command approval. | Command risk scoring, blocklists, sandboxing, and no auto-approval. | [3.4](3.04-authorization-permission.md#tool-permission-ux), [3.12](3.12-logging-detection.md#dangerous-command-detection) |
+| Sampling and elicitation | Off, or shown before any model call or form submit. | Secret-looking forms refused. URL mode shows the raw URL and does not fetch it. | [3.8](3.08-context-memory.md#sampling-abuse), [3.8](3.08-context-memory.md#elicitation) |
+| Remote authorization | OAuth with PKCE and HTTPS endpoints. | Private-address blocks on metadata fetches, issuer check, OS secret storage, least scopes. | [3.3](3.03-identity-authentication.md), [3.16](3.16-gateway-egress.md#oauth-discovery-urls-as-an-ssrf-channel) |
+| Workspace trust | Unknown workspaces are restricted. | Trust modes, re-evaluation when the repo changes. A committed MCP config does not auto-run. | [3.4](3.04-authorization-permission.md#workspace-trust) |
+| Secrets | Known secret files require approval. | Secret scanning and output redaction before model exposure. Tokens stay out of prompts and stderr. | [3.17](3.17-secrets-credentials.md) |
+| Monitoring | Basic tool-call history. | Full audit trail with SIEM integration. | [3.12](3.12-logging-detection.md) |
+| Emergency controls | The user can disable a server. | Global MCP kill switch and enterprise policy override. | [3.4](3.04-authorization-permission.md#tool-permission-ux), [3.14](3.14-enterprise-governance.md) |
+| Enterprise governance | Local configuration only. | Central policy, inventory of known config paths, and an exception workflow. | [3.14](3.14-enterprise-governance.md) |
+
+### Client requirements
+
+1. Display every installed server, with source, version, command, arguments, and enabled status.
+2. Allow the user to disable a server without editing the raw file.
+3. Show tool name, server name, arguments, target, and risk before approval.
+4. Distinguish read, write, delete, execute, network, credential, and external-send actions.
+5. Support one-time, session, workspace, and persistent approval scopes.
+6. Re-prompt when a server adds tools or changes schemas or descriptions.
+7. Restrict file access to approved workspace paths by default.
+8. Warn before reading secret-like files or credential locations.
+9. Require explicit approval for every shell command.
+10. Log tool requests, approvals, denials, executions, errors, and config changes.
+11. Show the full local-server command, without truncation, and do not launch it until the user approves.
+12. Do not treat tool annotations or roots as an access-control decision for an untrusted server.
+13. Present sampling requests and elicitation forms before data moves, and refuse form fields that ask for credentials.
+14. Validate OAuth and elicitation URLs, allow only safe schemes, and do not fetch elicitation URLs on the user’s behalf.
+15. Refuse to auto-start MCP servers defined in an untrusted workspace.
+
+Approval prompts have to be understandable without specialist knowledge. Logs redact secrets by default. Policy checks happen before execution. The client fails closed when policy or approval state is unavailable. Enterprises can disable specific servers or tool categories. Audit logs are exportable. New users and new workspaces get safe defaults. The client minimizes the local context sent to the model.
+
+### Client scenarios already covered by tests
+
+| Scenario | Test |
+| --- | --- |
+| Hidden instruction in a README or comment | `MCPSTG-PRMT-02` |
+| Tool schema or description change after approval | `MCPSTG-SUPP-05`, rug-pull checks in [3.5](3.05-tool-security.md#rug-pulls-and-tool-definition-drift) |
+| Auto-approved shell command | `MCPSTG-AUTHZ-02` |
+| Filesystem rooted at the home directory | `MCPSTG-AUTHZ-01`, `MCPSTG-CONF-04` |
+| Git or SSH credential access | `MCPSTG-SECR-01`, `MCPSTG-RSRC-04` |
+| Read a file, then send it externally | `MCPSTG-GW-01`, `MCPSTG-CTX-01` |
+| Tool output that says to ignore the user | `MCPSTG-OUTV-01`, `MCPSTG-PRMT-02` |
+| One-click install or a committed workspace config | `MCPSTG-CONF-01` |
+| `readOnlyHint: true` on a tool that writes | [3.5](3.05-tool-security.md) and [3.4](3.04-authorization-permission.md#tool-permission-ux) |
+| OAuth metadata aimed at a private or link-local address | `MCPSTG-GW-02` |
+| Non-HTTP authorization URL | `MCPSTG-AUTHN-02`, `MCPSTG-TRNS-02` |
+| Sampling that asks for secrets or attaches tools | `MCPSTG-CTX-03`, [3.8](3.08-context-memory.md#sampling-abuse) |
+| Elicitation form that asks for a token, or a client that prefetches the elicitation URL | [3.8](3.08-context-memory.md#elicitation) |
 
 ---
 
