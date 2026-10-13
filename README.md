@@ -8,35 +8,26 @@ This work is licensed under [GPL-3.0](LICENSE).
 
 ## Chapters
 
-1. [Project Overview](<1. Project_Overview.md>)
-2. [MCP Fundamentals](<2. MCP Fundamentals.md>)
-3. [MCP Threats and Attack Patterns](mcp-threats-and-attack-patterns.md) — pattern index; the write-ups live in [MCP Security Testing](<3. MCP Threats and Attack Patterns/README.md>) sections 4.1–4.19
-4. [Secure MCP Development](<4. Secure MCP Development.md>)
-5. [MCP Client and Host Security](<5. MCP Client and Host Security.md>)
-6. [MCP Supply Chain Security](<6. MCP Supply Chain Security.md>)
-7. [MCP Gateways, Registries, and Enterprise Governance](<7. MCP Gateways, Registries, and Enterprise Governance.md>)
-8. [Detection, Monitoring, and SOC Content](<8. Detection, Monitoring, and SOC Content.md>)
-9. [MCP Incident Response](<9. MCP Incident Response.md>)
+Read the guide in this order. Chapter 3 holds the threat write-ups and **79 tests** in sections 4.1–4.19.
+
+1. [Project Overview](<01. Project_Overview.md>)
+2. [MCP Fundamentals](<02. MCP Fundamentals.md>)
+3. [MCP Threats and Attack Patterns](<03. MCP Threats and Attack Patterns/README.md>)
+4. [Secure MCP Development](<04. Secure MCP Development.md>)
+5. [MCP Client and Host Security](<05. MCP Client and Host Security.md>)
+6. [MCP Supply Chain Security](<06. MCP Supply Chain Security.md>)
+7. [MCP Gateways, Registries, and Enterprise Governance](<07. MCP Gateways, Registries, and Enterprise Governance.md>)
+8. [Detection, Monitoring, and SOC Content](<08. Detection, Monitoring, and SOC Content.md>)
+9. [MCP Incident Response](<09. MCP Incident Response.md>)
 10. [MCP Security Taxonomy](<10. MCP Security Taxonomy.md>)
 11. [Hacks, News, and Public Incidents](<11. Hacks, News, and Public Incidents.md>)
-12. [Case Studies](<12. Case Studies.md>)
-13. [Checklists](<13. Checklists.md>)
-14. [Glossary](<14. Glossary.md>)
+12. [Checklists](<12. Checklists.md>)
+13. [Glossary](<13. Glossary.md>)
+14. [Appendix A — Glossary](<14. Appendix A - Glossary.md>)
+15. [Appendix B — Sample Threat Scenarios](<15. Appendix B - Sample Threat Scenarios.md>)
+16. [Appendix C — Suggested Reading](<16. Appendix C - Suggested Reading.md>)
 
-## MCP security testing
-
-The test catalog is in [Chapter 4](<3. MCP Threats and Attack Patterns/README.md>). It uses an OWASP Web Security Testing Guide–style layout: numbered narrative chapters and **79 tests** in sections 4.1–4.19.
-
-| # | Chapter | What it contains |
-| --- | --- | --- |
-| 1 | [Frontispiece](01-frontispiece.md) | Title, version, how to read the guide |
-| 2 | [MCP Fundamentals](<2. MCP Fundamentals.md>) | What MCP is, scope, audience, safe testing rules |
-| 3 | [The MCP Security Testing Framework](03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
-| 4 | [MCP Security Testing](<3. MCP Threats and Attack Patterns/README.md>) | Tests explained in sections 4.1–4.19 |
-| 5 | [Reporting](05-reporting.md) | Finding format, evidence, severity |
-| — | [MCP Threats and Attack Patterns](mcp-threats-and-attack-patterns.md) | Index of attack patterns, public samples, and defenses in sections 4.1–4.19 |
-
-[Contributing](CONTRIBUTING.md) describes how to edit section pages. [index.json](index.json) is the machine-readable catalog of test cases. Test IDs use the form `MCPSTG-<CATEGORY>-<NUMBER>`.
+[Contributing](CONTRIBUTING.md) describes how to edit section pages. Test IDs use the form `MCPSTG-<CATEGORY>-<NUMBER>`.
 
 This guide is educational material. Do not use it to test systems without explicit written authorization. Use synthetic lab environments and placeholders.
 

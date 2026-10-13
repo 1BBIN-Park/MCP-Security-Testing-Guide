@@ -4,8 +4,6 @@ This chapter is the **MCP equivalent of OWASP WSTG Chapter 4**. It defines **79*
 
 **Every test is explained in sections 4.1–4.19 on this chapter’s pages**—including summary, scenario, steps, **MCP code snippets** (JSON-RPC, host config, lab scripts), expected results, and remediation. All test documentation lives in this folder; there is no separate reader-facing test section elsewhere in the guide.
 
-The machine-readable catalog is [`index.json`](../index.json).
-
 ---
 
 ## How this chapter is organized
@@ -27,7 +25,7 @@ The machine-readable catalog is [`index.json`](../index.json).
 | [How to run tests](how-to-run.md) | Assessment workflow from inventory to evidence |
 | [Test ID taxonomy](taxonomy.md) | Prefix meanings and ID matrix |
 | [Test case format](test-case-format.md) | Template for authors (maintainers) |
-| [Attack pattern index](../mcp-threats-and-attack-patterns.md) | Where each attack pattern, sample, and checklist now lives |
+| [Attack pattern index](4.01-information-gathering.md#documented-public-samples) | Public samples that the patterns in this chapter come from |
 | [Attack surface and pattern catalog](4.01-information-gathering.md#attack-surface-and-pattern-catalog) | Attack-surface model, pattern summary, and public-sample catalog |
 
 ### Test categories — sections 4.1 to 4.19
@@ -66,18 +64,27 @@ The machine-readable catalog is [`index.json`](../index.json).
 
 ## Guide table of contents
 
-1. [Frontispiece](../01-frontispiece.md)
-2. [MCP Fundamentals](<../2. MCP Fundamentals.md>)
-3. [The MCP Security Testing Framework](../03-mcp-security-testing-framework.md)
-4. **MCP Security Testing** (this chapter)
-5. [Reporting](../05-reporting.md)
-
-**Appendices:** [A](../appendix-a-glossary.md) · [B](../appendix-b-scenarios.md) · [C](../appendix-c-evidence-checklist.md) · [D](../appendix-d-lab-fixtures.md) · [E](../appendix-e-suggested-reading.md) · [F](../appendix-f-testing-tools.md)
+1. [Project Overview](<../01. Project_Overview.md>)
+2. [MCP Fundamentals](<../02. MCP Fundamentals.md>)
+3. **MCP Threats and Attack Patterns** (this chapter)
+4. [Secure MCP Development](<../04. Secure MCP Development.md>)
+5. [MCP Client and Host Security](<../05. MCP Client and Host Security.md>)
+6. [MCP Supply Chain Security](<../06. MCP Supply Chain Security.md>)
+7. [MCP Gateways, Registries, and Enterprise Governance](<../07. MCP Gateways, Registries, and Enterprise Governance.md>)
+8. [Detection, Monitoring, and SOC Content](<../08. Detection, Monitoring, and SOC Content.md>)
+9. [MCP Incident Response](<../09. MCP Incident Response.md>)
+10. [MCP Security Taxonomy](<../10. MCP Security Taxonomy.md>)
+11. [Hacks, News, and Public Incidents](<../11. Hacks, News, and Public Incidents.md>)
+12. [Checklists](<../12. Checklists.md>)
+13. [Glossary](<../13. Glossary.md>)
+14. [Appendix A — Glossary](<../14. Appendix A - Glossary.md>)
+15. [Appendix B — Sample Threat Scenarios](<../15. Appendix B - Sample Threat Scenarios.md>)
+16. [Appendix C — Suggested Reading](<../16. Appendix C - Suggested Reading.md>)
 
 ---
 
 ## Maintainers
 
-Edit tests directly in the matching section file (`4.01`–`4.19`) under **Test cases**, then update [`index.json`](../index.json) when adding or renaming tests.
+Edit tests directly in the matching section file (`4.01`–`4.19`) under **Test cases** when adding or renaming tests.
 
 See [About test procedures](about-docs-tests.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).

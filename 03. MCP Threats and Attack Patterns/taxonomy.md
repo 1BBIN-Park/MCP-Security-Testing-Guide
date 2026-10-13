@@ -77,7 +77,7 @@ Do not mix input- and output-focused objectives in a single test file.
 | ABUS | `MCPSTG-ABUS-01` … `MCPSTG-ABUS-02` |
 | PRVC | `MCPSTG-PRVC-01` … `MCPSTG-PRVC-03` |
 
-Authoritative metadata (risk, testing type, file path) is in [`index.json`](../index.json).
+Risk, testing type, and the full write-up for each test live in the matching section page (`4.01`–`4.19`).
 
 ## How These Patterns Map to the OWASP MCP Top 10
 
