@@ -526,9 +526,6 @@ recommended_controls:
 | Detection guidance | Logs, events, alerts, and telemetry to monitor                                                 |
 
 ---
-
-## One-Line Summary
-
 MCP security taxonomy helps teams move from “the AI did something weird” to a structured security diagnosis: which identity failed, which context was trusted, which tool executed, which data moved, which framework category applies, and what control should stop it next time.
 
 
@@ -536,7 +533,7 @@ Created the **“MCP Security Taxonomy”** section in canvas mode.
 
 I included:
 
-* A clear MCP risk taxonomy overview
+* A clear MCP risk taxonomy overview - https://github.com/OWASP/MCP-Taxonomy
 * OWASP MCP Top 10 mapping
 * OWASP LLM Top 10 2025 mapping
 * CWE mapping
@@ -551,35 +548,3 @@ I verified the current mappings against the official MCP specification, OWASP MC
 [1]: https://owasp.org/www-project-mcp-top-10/ "OWASP MCP Top 10 | OWASP Foundation"
 [2]: https://genai.owasp.org/llm-top-10/ "LLMRisks Archive - OWASP Gen AI Security Project"
 [3]: https://modelcontextprotocol.io/specification/2025-11-25 "Specification - Model Context Protocol"
-
-# cursor found
-## Concrete framework cross-references (for taxonomy tables)
-
-### MITRE D3FEND (defensive knowledge graph)
-
-**D3FEND** catalogs defensive techniques (e.g. credential hardening, executable allowlisting, network traffic filtering) as a complement to ATT&CK/ATLAS offensive knowledge.
-
-- **Portal:** [MITRE D3FEND](https://d3fend.mitre.org/).
-
-**Example mappings (illustrative, not exhaustive):**
-
-| MCP control | D3FEND-style concept |
-| ----------- | ------------------- |
-| Gateway allowlists for `tools/call` | Per-request authorization / policy enforcement |
-| Read-only filesystem MCP | File access permission restriction |
-| Sandboxed stdio server | Container isolation, process sandboxing |
-| Secret redaction on tool output | Filter network message content |
-
-### Privacy: LINDDUN
-
-**LINDDUN** (Linkability, Identifiability, Non-repudiation, Detectability, Disclosure of information, Unawareness, Non-compliance) is a privacy threat-modeling framework. MCP10 “context over-sharing” maps cleanly to **Disclosure of information** and **Linkability** when the same agent session mixes tenants or correlates user queries via logs.
-
-- **Reference:** Search “LINDDUN privacy threat modeling” for the official project site and methodology PDFs.
-
-### Empirical papers to cite in taxonomy rationale
-
-1. **MCPTox** — “MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers” (Wang et al.), arXiv:2508.14925 — [https://arxiv.org/abs/2508.14925](https://arxiv.org/abs/2508.14925). Provides benchmark evidence that tool poisoning is widespread across evaluated configurations.
-
-2. **“Breaking the Protocol”** — Maloyan & Namiot, arXiv:2601.17549 — [https://arxiv.org/abs/2601.17549](https://arxiv.org/abs/2601.17549). Discusses specification-level issues such as capability attestation gaps and risks in multi-server setups—useful when arguing for **gateway attestation** and **manifest pinning** beyond CWE-only views.
-
-When updating the awesome list’s YAML taxonomy template, add optional keys: `d3fend_concepts: []`, `privacy_linddun: []`, `empirical_evidence: []`.
