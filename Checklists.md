@@ -1089,17 +1089,3 @@ For teams just starting, use this shorter version first.
 | Supply chain       | Review server source, dependencies, versions, and maintainers.                         |
 | Incident response  | Have a shutdown, credential rotation, and evidence collection plan.                    |
 
-One-liner for teams:
-
-> MCP security starts when you stop treating tools like harmless plugins and start treating them like privileged automation with an LLM-shaped steering wheel.
-
-# cursor found
-## Additional checklist items (binary yes/no)
-
-- [ ] **MCP Inspector** (if used) not listening on `0.0.0.0`; firewall blocks LAN access to dev ports (**CVE-2025-49596** lesson).
-- [ ] **ngrok / Cloudflare Tunnel** URLs for MCP are **auth-protected** and **rotated** after demos.
-- [ ] **`.env`** files denied by filesystem MCP roots policy.
-- [ ] **Separate OAuth clients** for developer laptops vs CI agents.
-- [ ] **Gateway** logs `tools/call` arguments hash for all `severity >= high` tools.
-
-These are *additive* to the longer checklists—do not remove existing rows when merging into a master README.
