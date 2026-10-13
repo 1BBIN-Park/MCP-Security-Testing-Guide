@@ -15,17 +15,18 @@ Read the guide in this order. Chapter 3 holds the threat write-ups and **79 test
 3. [MCP Threats and Attack Patterns](<03. MCP Threats and Attack Patterns/README.md>)
 4. [Secure MCP Development](<04. Secure MCP Development.md>)
 5. [MCP Client and Host Security](<05. MCP Client and Host Security.md>)
-6. [MCP Supply Chain Security](<06. MCP Supply Chain Security.md>)
+6. [MCP Supply Chain Security](<03. MCP Threats and Attack Patterns/4.13-supply-chain.md>)
 7. [MCP Gateways, Registries, and Enterprise Governance](<07. MCP Gateways, Registries, and Enterprise Governance.md>)
-8. [Detection, Monitoring, and SOC Content](<08. Detection, Monitoring, and SOC Content.md>)
+8. [Detection, Monitoring, and SOC Content](<03. MCP Threats and Attack Patterns/4.12-logging-detection.md#detection-monitoring-and-soc-content>)
 9. [MCP Incident Response](<09. MCP Incident Response.md>)
 10. [MCP Security Taxonomy](<10. MCP Security Taxonomy.md>)
 11. [Hacks, News, and Public Incidents](<11. Hacks, News, and Public Incidents.md>)
-12. [Checklists](<12. Checklists.md>)
-13. [Glossary](<13. Glossary.md>)
 14. [Appendix A — Glossary](<14. Appendix A - Glossary.md>)
 15. [Appendix B — Sample Threat Scenarios](<15. Appendix B - Sample Threat Scenarios.md>)
 16. [Appendix C — Suggested Reading](<16. Appendix C - Suggested Reading.md>)
+17. [Appendix G — Security Review](<17. Appendix G - Security Review.md>)
+
+Review rows for servers, clients, governance, incident response, and authorized red-team tests sit in those chapters. [Appendix G](<17. Appendix G - Security Review.md>) holds the status values, review flow, scorecard, and copy-paste review template.
 
 [Contributing](CONTRIBUTING.md) describes how to edit section pages. Test IDs use the form `MCPSTG-<CATEGORY>-<NUMBER>`.
 
