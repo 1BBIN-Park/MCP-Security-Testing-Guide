@@ -8,7 +8,7 @@
 
 ## Test case files
 
-- **Canonical location:** tests live in [Chapter 3 section pages](<03. MCP Threats and Attack Patterns/README.md>) (`3.01`–`3.19`), embedded under **Test cases**.
+- **Canonical location:** tests live in [Chapter 3 section pages](<03. MCP Threats and Attack Patterns/3. MCP Threats and Attack Patterns.md>) (`3.01`–`3.19`), embedded under **Test cases**.
 - Use the template in [test-case-format.md](<03. MCP Threats and Attack Patterns/test-case-format.md>)
 - Use placeholders only: `<TEST_TOOL_NAME>`, `<TEST_RESOURCE>`, `<TEST_WORKSPACE>`, `<TEST_USER>`, `<AUTHORIZED_LAB_SERVER>`, etc.
 - **Never** document steps that target real organizations, customers, or non-lab endpoints.
