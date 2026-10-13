@@ -10,7 +10,7 @@ This work is licensed under [GPL-3.0](LICENSE).
 
 Read the guide in this order. Chapter 3 holds the threat write-ups and **79 tests** in sections 3.1–3.19. 
 
-1. [Project Overview](01. Project_Overview.md)
+1. [Project Overview](<01. Project_Overview.md>)
 2. [MCP Fundamentals](<02. MCP Fundamentals.md>)
 3. [MCP Threats and Attack Patterns](<03. MCP Threats and Attack Patterns/README.md>)
 4. [Secure MCP Development](<04. Secure MCP Development.md>)
