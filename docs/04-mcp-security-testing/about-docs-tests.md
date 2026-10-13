@@ -20,7 +20,8 @@ Example: [4.18 Resilience and Abuse](4.18-resilience-abuse.md) explains `MCPSTG-
 Every category guide (`4.01` … `4.19`) follows the same pattern:
 
 1. Overview, scope, priority, related categories  
-2. **Test cases** — table + each test as `### MCPSTG-…` with:
+2. **Threats and attack patterns** — published cases, with short quotations and links. These describe impact. They are not exploit procedures.  
+3. **Test cases** — table + each test as `### MCPSTG-…` with:
    - Summary and scenario  
    - How to test (manual, config, runtime, abuse, logs)  
    - **Example snippets** (MCP messages, config, safe lab code)  

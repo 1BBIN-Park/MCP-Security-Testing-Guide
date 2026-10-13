@@ -13,7 +13,7 @@ The machine-readable catalog is [`index.json`](../../index.json).
 | Layer | Location | What you get |
 |-------|----------|--------------|
 | **Chapter hub** | This file | Navigation and links to sections 4.1–4.19 |
-| **Sections 4.1–4.19** | `4.01-*.md` … `4.19-*.md` | Category context + **all tests explained with code snippets** |
+| **Sections 4.1–4.19** | `4.01-*.md` … `4.19-*.md` | Category context, **published threats with sources**, and **all tests explained with code snippets** |
 
 ---
 
@@ -27,6 +27,7 @@ The machine-readable catalog is [`index.json`](../../index.json).
 | [How to run tests](how-to-run.md) | Assessment workflow from inventory to evidence |
 | [Test ID taxonomy](taxonomy.md) | Prefix meanings and ID matrix |
 | [Test case format](test-case-format.md) | Template for authors (maintainers) |
+| [MCP Threats and Attack Patterns](../mcp-threats-and-attack-patterns.md) | Canonical attack patterns to use when choosing tests |
 
 ### Test categories — sections 4.1 to 4.19
 

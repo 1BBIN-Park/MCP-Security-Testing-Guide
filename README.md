@@ -16,6 +16,7 @@ Developers, security testers, red teams, application security engineers, AI secu
 | 3   | **[The MCP Security Testing Framework](docs/03-mcp-security-testing-framework.md)** | Principles, methodology, threat modeling, SDLC                       |
 | 4   | **[MCP Security Testing](docs/04-mcp-security-testing/README.md)**                  | **79 tests explained in sections 4.1–4.19** (with MCP code snippets) |
 | 5   | **[Reporting](docs/05-reporting.md)**                                               | Finding format, evidence, severity                                   |
+| —   | **[MCP Threats and Attack Patterns](docs/mcp-threats-and-attack-patterns.md)**     | Canonical attack patterns, public samples, and defenses              |
 
 
 ### Where is the MCP security testing?

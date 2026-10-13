@@ -31,6 +31,8 @@ Recommended steps:
 4. **List misuse cases** per STRIDE-style prompts adapted to MCP (for example tool spoofing, tool description poisoning, resource-driven injection).
 5. **Map controls** to each misuse case; mark gaps as test objectives.
 
+Pattern names, attack flows, and public samples for those misuse cases are in [MCP Threats and Attack Patterns](mcp-threats-and-attack-patterns.md).
+
 ## 3.4 Manual review
 
 Focus areas:
