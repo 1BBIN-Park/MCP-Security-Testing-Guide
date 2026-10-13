@@ -7,7 +7,7 @@
       "category": "INFO",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
+      "file": "3. MCP Threats and Attack Patterns/4.01-information-gathering.md",
       "mappings": {
         "owaspAsvs": "V1.1, V1.2 (architecture and attack-surface documentation)",
         "cwe": "CWE-200 (Exposure of Sensitive Information to an Unauthorized Actor)",
@@ -21,7 +21,7 @@
       "category": "INFO",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
+      "file": "3. MCP Threats and Attack Patterns/4.01-information-gathering.md",
       "mappings": {
         "owaspApiTop10": "API9:2023 Improper Inventory Management",
         "owaspAsvs": "V1.1 (documented attack surface)",
@@ -36,7 +36,7 @@
       "category": "INFO",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
+      "file": "3. MCP Threats and Attack Patterns/4.01-information-gathering.md",
       "mappings": {
         "owaspApiTop10": "API9:2023 Improper Inventory Management",
         "owaspAsvs": "V1.1, V8.1 (data classification and inventory)",
@@ -51,7 +51,7 @@
       "category": "INFO",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
+      "file": "3. MCP Threats and Attack Patterns/4.01-information-gathering.md",
       "mappings": {
         "owaspAsvs": "V1 Architecture, design, and threat modeling",
         "mcpSpec": "host, server, and transport trust boundaries (high-level)"
@@ -64,7 +64,7 @@
       "category": "INFO",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.01-information-gathering.md",
+      "file": "3. MCP Threats and Attack Patterns/4.01-information-gathering.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure, LLM06 Excessive Agency (context routing)",
         "owaspAsvs": "V8 Data protection, V1.4 (trust boundaries for data flows)",
@@ -78,7 +78,7 @@
       "category": "CONF",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
+      "file": "3. MCP Threats and Attack Patterns/4.02-configuration-deployment.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration",
         "owaspAsvs": "V14 Configuration",
@@ -93,7 +93,7 @@
       "category": "CONF",
       "risk": "Critical",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
+      "file": "3. MCP Threats and Attack Patterns/4.02-configuration-deployment.md",
       "mappings": {
         "owaspAsvs": "V13.1 (network segmentation), V14.2",
         "cwe": "CWE-668 (Exposure of Resource to Wrong Sphere), CWE-923 (Improper Restriction of Communication Channel)",
@@ -107,7 +107,7 @@
       "category": "CONF",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
+      "file": "3. MCP Threats and Attack Patterns/4.02-configuration-deployment.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration",
         "owaspAsvs": "V7.4 (error handling), V14.3",
@@ -121,7 +121,7 @@
       "category": "CONF",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
+      "file": "3. MCP Threats and Attack Patterns/4.02-configuration-deployment.md",
       "mappings": {
         "owaspAsvs": "V14.1 (deployment hardening), V8.1",
         "cwe": "CWE-732 (Incorrect Permission Assignment for Critical Resource)",
@@ -135,7 +135,7 @@
       "category": "CONF",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.02-configuration-deployment.md",
+      "file": "3. MCP Threats and Attack Patterns/4.02-configuration-deployment.md",
       "mappings": {
         "owaspAsvs": "V13.2 (TLS and transport security)",
         "cwe": "CWE-319 (Cleartext Transmission of Sensitive Information), CWE-295 (Improper Certificate Validation)",
@@ -149,7 +149,7 @@
       "category": "AUTHN",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
+      "file": "3. MCP Threats and Attack Patterns/4.03-identity-authentication.md",
       "mappings": {
         "owaspApiTop10": "API2:2023 Broken Authentication",
         "owaspAsvs": "V2 Authentication",
@@ -164,7 +164,7 @@
       "category": "AUTHN",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
+      "file": "3. MCP Threats and Attack Patterns/4.03-identity-authentication.md",
       "mappings": {
         "owaspApiTop10": "API2:2023 Broken Authentication",
         "owaspAsvs": "V2.2, V3.5 (session and token handling)",
@@ -178,7 +178,7 @@
       "category": "AUTHN",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
+      "file": "3. MCP Threats and Attack Patterns/4.03-identity-authentication.md",
       "mappings": {
         "owaspApiTop10": "API2:2023 Broken Authentication",
         "owaspAsvs": "V2.1, V3.3 (credential and session separation)",
@@ -192,7 +192,7 @@
       "category": "AUTHN",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.03-identity-authentication.md",
+      "file": "3. MCP Threats and Attack Patterns/4.03-identity-authentication.md",
       "mappings": {
         "owaspApiTop10": "API2:2023 Broken Authentication",
         "owaspAsvs": "V3.3 (session termination and token invalidation)",
@@ -206,7 +206,7 @@
       "category": "AUTHZ",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
+      "file": "3. MCP Threats and Attack Patterns/4.04-authorization-permission.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency",
         "owaspApiTop10": "API5:2023 Broken Function Level Authorization",
@@ -221,7 +221,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
+      "file": "3. MCP Threats and Attack Patterns/4.04-authorization-permission.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency, LLM04 Model Denial of Service (UI trust bypass analog)",
         "owaspApiTop10": "API5:2023 Broken Function Level Authorization",
@@ -237,7 +237,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
+      "file": "3. MCP Threats and Attack Patterns/4.04-authorization-permission.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency",
         "owaspApiTop10": "API1:2023 Broken Object Level Authorization, API3:2023 Broken Object Property Level Authorization",
@@ -253,7 +253,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
+      "file": "3. MCP Threats and Attack Patterns/4.04-authorization-permission.md",
       "mappings": {
         "owaspLlmTop10": "LLM08 Excessive Agency (tool chaining), LLM06",
         "owaspApiTop10": "API5:2023 Broken Function Level Authorization",
@@ -269,7 +269,7 @@
       "category": "AUTHZ",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.04-authorization-permission.md",
+      "file": "3. MCP Threats and Attack Patterns/4.04-authorization-permission.md",
       "mappings": {
         "owaspApiTop10": "API1:2023 Broken Object Level Authorization",
         "owaspAsvs": "V4.1, V14.1 (workspace isolation)",
@@ -284,7 +284,7 @@
       "category": "TOOL",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
+      "file": "3. MCP Threats and Attack Patterns/4.05-tool-security.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (metadata influencing agent actions)",
         "owaspApiTop10": "API8:2023 Security Misconfiguration (unsafe metadata consumption)",
@@ -301,7 +301,7 @@
       "category": "TOOL",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
+      "file": "3. MCP Threats and Attack Patterns/4.05-tool-security.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency, LLM08 (unsafe autonomous execution)",
         "owaspAsvs": "V4.1, V14.2 (least privilege for tool execution)",
@@ -316,7 +316,7 @@
       "category": "TOOL",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
+      "file": "3. MCP Threats and Attack Patterns/4.05-tool-security.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (parameter injection via model)",
         "owaspAsvs": "V5.1 (input validation)",
@@ -331,7 +331,7 @@
       "category": "TOOL",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
+      "file": "3. MCP Threats and Attack Patterns/4.05-tool-security.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Related (schema confusion influencing tool selection)",
         "owaspApiTop10": "API8:2023 Security Misconfiguration",
@@ -347,7 +347,7 @@
       "category": "TOOL",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
+      "file": "3. MCP Threats and Attack Patterns/4.05-tool-security.md",
       "mappings": {
         "owaspLlmTop10": "LLM08 Excessive Agency, LLM06",
         "owaspAsvs": "V4.1, V11.1 (chained authorization and business logic)",
@@ -363,7 +363,7 @@
       "category": "TOOL",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.05-tool-security.md",
+      "file": "3. MCP Threats and Attack Patterns/4.05-tool-security.md",
       "mappings": {
         "owaspLlmTop10": "LLM04 Model Denial of Service (approval UX), LLM06 Excessive Agency",
         "owaspAsvs": "V4.2 (operation-level access control and human confirmation)",
@@ -378,7 +378,7 @@
       "category": "RSRC",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
+      "file": "3. MCP Threats and Attack Patterns/4.06-resource-data-access.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure",
         "owaspApiTop10": "API3:2023 Broken Object Property Level Authorization",
@@ -394,7 +394,7 @@
       "category": "RSRC",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
+      "file": "3. MCP Threats and Attack Patterns/4.06-resource-data-access.md",
       "mappings": {
         "owaspApiTop10": "API9:2023 Improper Inventory Management, API1:2023 Broken Object Level Authorization",
         "owaspAsvs": "V1.1 (attack surface inventory)",
@@ -409,7 +409,7 @@
       "category": "RSRC",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
+      "file": "3. MCP Threats and Attack Patterns/4.06-resource-data-access.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency (cross-tenant data access)",
         "owaspApiTop10": "API1:2023 Broken Object Level Authorization",
@@ -425,7 +425,7 @@
       "category": "RSRC",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
+      "file": "3. MCP Threats and Attack Patterns/4.06-resource-data-access.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure, LLM06 (model-mediated exfiltration)",
         "owaspApiTop10": "API3:2023 Broken Object Property Level Authorization",
@@ -441,7 +441,7 @@
       "category": "RSRC",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.06-resource-data-access.md",
+      "file": "3. MCP Threats and Attack Patterns/4.06-resource-data-access.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Insecure Output Handling (secondary), LLM06 (model-initiated file access)",
         "owaspApiTop10": "API1:2023 Broken Object Level Authorization, API3:2023 Broken Object Property Level Authorization",
@@ -457,7 +457,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
+      "file": "3. MCP Threats and Attack Patterns/4.07-prompt-instruction.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection",
         "owaspAsvs": "V5.1 (input validation for untrusted content)",
@@ -473,7 +473,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
+      "file": "3. MCP Threats and Attack Patterns/4.07-prompt-instruction.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (indirect via resources)",
         "owaspAsvs": "V1 trust boundaries for content pipelines, V8.1",
@@ -489,7 +489,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
+      "file": "3. MCP Threats and Attack Patterns/4.07-prompt-instruction.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (tool instruction override)",
         "owaspAsvs": "V5.1, V1.4 (trust boundaries between tool metadata and model)",
@@ -505,7 +505,7 @@
       "category": "PRMT",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
+      "file": "3. MCP Threats and Attack Patterns/4.07-prompt-instruction.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (hidden instruction leakage)",
         "owaspAsvs": "V7.4 (error and debug output handling)",
@@ -519,7 +519,7 @@
       "category": "PRMT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.07-prompt-instruction.md",
+      "file": "3. MCP Threats and Attack Patterns/4.07-prompt-instruction.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (template manipulation)",
         "owaspAsvs": "V5.1, V14.2 (secure defaults for prompt templates)",
@@ -534,7 +534,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
+      "file": "3. MCP Threats and Attack Patterns/4.08-context-memory.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure, LLM06 Excessive Agency",
         "owaspAsvs": "V8.1, V8.2 (data minimization in context)",
@@ -548,7 +548,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
+      "file": "3. MCP Threats and Attack Patterns/4.08-context-memory.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (persistent variants), LLM08 Vector and Embedding Weaknesses (if embeddings used)",
         "owaspAsvs": "V8 (data protection), V1 (trust boundaries for caches)",
@@ -564,7 +564,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
+      "file": "3. MCP Threats and Attack Patterns/4.08-context-memory.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure",
         "owaspAsvs": "V8.2, V8.3 (context isolation and retention)",
@@ -578,7 +578,7 @@
       "category": "CTX",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
+      "file": "3. MCP Threats and Attack Patterns/4.08-context-memory.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure, LLM06 Excessive Agency",
         "owaspAsvs": "V8.3 (tenant and session isolation)",
@@ -592,7 +592,7 @@
       "category": "CTX",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.08-context-memory.md",
+      "file": "3. MCP Threats and Attack Patterns/4.08-context-memory.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (untrusted context prioritization)",
         "owaspAsvs": "V1.4 (trust boundary enforcement for context sources)",
@@ -606,7 +606,7 @@
       "category": "AGNT",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
+      "file": "3. MCP Threats and Attack Patterns/4.09-agentic-workflow.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency",
         "owaspAsvs": "V4.2, V11.1 (business logic and human oversight)",
@@ -620,7 +620,7 @@
       "category": "AGNT",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
+      "file": "3. MCP Threats and Attack Patterns/4.09-agentic-workflow.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency, LLM08",
         "owaspAsvs": "V4.1, V11.1",
@@ -635,7 +635,7 @@
       "category": "AGNT",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
+      "file": "3. MCP Threats and Attack Patterns/4.09-agentic-workflow.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency",
         "owaspApiTop10": "API5:2023 Broken Function Level Authorization",
@@ -650,7 +650,7 @@
       "category": "AGNT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
+      "file": "3. MCP Threats and Attack Patterns/4.09-agentic-workflow.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (goal manipulation via untrusted resources)",
         "owaspAsvs": "V1.4, V11.1",
@@ -665,7 +665,7 @@
       "category": "AGNT",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.09-agentic-workflow.md",
+      "file": "3. MCP Threats and Attack Patterns/4.09-agentic-workflow.md",
       "mappings": {
         "owaspLlmTop10": "LLM08 Excessive Agency, LLM10 Unbounded Consumption",
         "owaspApiTop10": "API4:2023 Unrestricted Resource Consumption",
@@ -679,7 +679,7 @@
       "category": "INPV",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.10-input-validation.md",
+      "file": "3. MCP Threats and Attack Patterns/4.10-input-validation.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Related (model-supplied parameters)",
         "owaspApiTop10": "API8:2023 Security Misconfiguration (missing validation)",
@@ -695,7 +695,7 @@
       "category": "INPV",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.10-input-validation.md",
+      "file": "3. MCP Threats and Attack Patterns/4.10-input-validation.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration",
         "owaspAsvs": "V5.1, V12.1 (file handling)",
@@ -710,7 +710,7 @@
       "category": "INPV",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.10-input-validation.md",
+      "file": "3. MCP Threats and Attack Patterns/4.10-input-validation.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration",
         "owaspAsvs": "V5.1 (schema validation and type safety)",
@@ -725,7 +725,7 @@
       "category": "OUTV",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.11-output-handling.md",
+      "file": "3. MCP Threats and Attack Patterns/4.11-output-handling.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Insecure Output Handling",
         "owaspAsvs": "V5.3 (output encoding and rendering)",
@@ -739,7 +739,7 @@
       "category": "OUTV",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.11-output-handling.md",
+      "file": "3. MCP Threats and Attack Patterns/4.11-output-handling.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure",
         "owaspApiTop10": "API3:2023 Broken Object Property Level Authorization",
@@ -755,7 +755,7 @@
       "category": "LOG",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
+      "file": "3. MCP Threats and Attack Patterns/4.12-logging-detection.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration (insufficient logging)",
         "owaspAsvs": "V7.1, V7.2 (log content and protection)",
@@ -770,7 +770,7 @@
       "category": "LOG",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
+      "file": "3. MCP Threats and Attack Patterns/4.12-logging-detection.md",
       "mappings": {
         "owaspAsvs": "V7.1, V4.2 (approval audit trail)",
         "cwe": "CWE-778 (Insufficient Logging), CWE-223 (Omission of Security-relevant Information)"
@@ -783,7 +783,7 @@
       "category": "LOG",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
+      "file": "3. MCP Threats and Attack Patterns/4.12-logging-detection.md",
       "mappings": {
         "owaspLlmTop10": "LLM01 Prompt Injection (detection and alerting)",
         "owaspAsvs": "V7.2, V13.2",
@@ -798,7 +798,7 @@
       "category": "LOG",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
+      "file": "3. MCP Threats and Attack Patterns/4.12-logging-detection.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration (sensitive data in logs)",
         "owaspAsvs": "V7.1, V8.2",
@@ -812,7 +812,7 @@
       "category": "LOG",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.12-logging-detection.md",
+      "file": "3. MCP Threats and Attack Patterns/4.12-logging-detection.md",
       "mappings": {
         "owaspAsvs": "V7.1, V7.3 (log integrity and incident reconstruction)",
         "cwe": "CWE-778, CWE-223"
@@ -825,7 +825,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
+      "file": "3. MCP Threats and Attack Patterns/4.13-supply-chain.md",
       "mappings": {
         "owaspAsvs": "V14.2, V10.2 (dependency and build integrity)",
         "cwe": "CWE-494 (Download of Code Without Integrity Check), CWE-829 (Inclusion of Functionality from Untrusted Control Sphere)",
@@ -839,7 +839,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Automated",
-      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
+      "file": "3. MCP Threats and Attack Patterns/4.13-supply-chain.md",
       "mappings": {
         "owaspAsvs": "V10.2 (dependency management)",
         "cwe": "CWE-1035 (Using Components with Known Vulnerabilities), CWE-1104 (Use of Unmaintained Third-Party Components)"
@@ -852,7 +852,7 @@
       "category": "SUPP",
       "risk": "Critical",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
+      "file": "3. MCP Threats and Attack Patterns/4.13-supply-chain.md",
       "mappings": {
         "owaspAsvs": "V14.2, V10.2",
         "cwe": "CWE-506 (Embedded Malicious Code), CWE-829",
@@ -866,7 +866,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
+      "file": "3. MCP Threats and Attack Patterns/4.13-supply-chain.md",
       "mappings": {
         "owaspAsvs": "V10.2, V14.2 (trusted distribution channels)",
         "cwe": "CWE-494 (Download of Code Without Integrity Check), CWE-345 (Insufficient Verification of Data Authenticity)"
@@ -879,7 +879,7 @@
       "category": "SUPP",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.13-supply-chain.md",
+      "file": "3. MCP Threats and Attack Patterns/4.13-supply-chain.md",
       "mappings": {
         "owaspAsvs": "V14.2, V10.2",
         "cwe": "CWE-494, CWE-829 (Unsafe Auto-Update Without Integrity Verification)"
@@ -892,7 +892,7 @@
       "category": "GOV",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
+      "file": "3. MCP Threats and Attack Patterns/4.14-enterprise-governance.md",
       "mappings": {
         "owaspApiTop10": "API9:2023 Improper Inventory Management",
         "owaspAsvs": "V1.1 (documented attack surface and inventory)"
@@ -905,7 +905,7 @@
       "category": "GOV",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
+      "file": "3. MCP Threats and Attack Patterns/4.14-enterprise-governance.md",
       "mappings": {
         "owaspAsvs": "V14.2 (approved software registry)",
         "cwe": "CWE-829 (Inclusion of Functionality from Untrusted Control Sphere)"
@@ -918,7 +918,7 @@
       "category": "GOV",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
+      "file": "3. MCP Threats and Attack Patterns/4.14-enterprise-governance.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration",
         "owaspAsvs": "V14 Configuration, V1.1"
@@ -931,7 +931,7 @@
       "category": "GOV",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
+      "file": "3. MCP Threats and Attack Patterns/4.14-enterprise-governance.md",
       "mappings": {
         "owaspAsvs": "V14.2, V1.4 (exception handling and governance)"
       },
@@ -943,7 +943,7 @@
       "category": "GOV",
       "risk": "Medium",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.14-enterprise-governance.md",
+      "file": "3. MCP Threats and Attack Patterns/4.14-enterprise-governance.md",
       "mappings": {
         "owaspAsvs": "V1.1, V7.3 (compliance evidence and audit trail)"
       },
@@ -955,7 +955,7 @@
       "category": "TRNS",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.15-transport-channel.md",
+      "file": "3. MCP Threats and Attack Patterns/4.15-transport-channel.md",
       "mappings": {
         "owaspAsvs": "V13.2 (TLS configuration and certificate validation)",
         "cwe": "CWE-295 (Improper Certificate Validation), CWE-326 (Inadequate Encryption Strength)",
@@ -969,7 +969,7 @@
       "category": "TRNS",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.15-transport-channel.md",
+      "file": "3. MCP Threats and Attack Patterns/4.15-transport-channel.md",
       "mappings": {
         "owaspApiTop10": "API2:2023 Broken Authentication",
         "owaspAsvs": "V2.2, V13.2 (transport authentication binding)",
@@ -984,7 +984,7 @@
       "category": "TRNS",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.15-transport-channel.md",
+      "file": "3. MCP Threats and Attack Patterns/4.15-transport-channel.md",
       "mappings": {
         "owaspApiTop10": "API4:2023 Unrestricted Resource Consumption",
         "owaspAsvs": "V13.2",
@@ -999,7 +999,7 @@
       "category": "GW",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.16-gateway-egress.md",
+      "file": "3. MCP Threats and Attack Patterns/4.16-gateway-egress.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency (agent-initiated network actions)",
         "owaspApiTop10": "API7:2023 Server Side Request Forgery",
@@ -1015,7 +1015,7 @@
       "category": "GW",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.16-gateway-egress.md",
+      "file": "3. MCP Threats and Attack Patterns/4.16-gateway-egress.md",
       "mappings": {
         "owaspLlmTop10": "LLM06 Excessive Agency (agent-initiated network actions)",
         "owaspApiTop10": "API7:2023 Server Side Request Forgery",
@@ -1031,7 +1031,7 @@
       "category": "GW",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.16-gateway-egress.md",
+      "file": "3. MCP Threats and Attack Patterns/4.16-gateway-egress.md",
       "mappings": {
         "owaspLlmTop10": "LLM10 Unbounded Consumption (when abuse drives model/API cost)",
         "owaspApiTop10": "API4:2023 Unrestricted Resource Consumption",
@@ -1046,7 +1046,7 @@
       "category": "SECR",
       "risk": "Critical",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.17-secrets-credentials.md",
+      "file": "3. MCP Threats and Attack Patterns/4.17-secrets-credentials.md",
       "mappings": {
         "owaspApiTop10": "API3:2023 Broken Object Property Level Authorization (analog)",
         "owaspAsvs": "V7, V8, V14",
@@ -1060,7 +1060,7 @@
       "category": "SECR",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.17-secrets-credentials.md",
+      "file": "3. MCP Threats and Attack Patterns/4.17-secrets-credentials.md",
       "mappings": {
         "owaspApiTop10": "API2:2023 Broken Authentication",
         "owaspAsvs": "V2, V3, V8",
@@ -1075,7 +1075,7 @@
       "category": "SECR",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.17-secrets-credentials.md",
+      "file": "3. MCP Threats and Attack Patterns/4.17-secrets-credentials.md",
       "mappings": {
         "owaspApiTop10": "API8:2023 Security Misconfiguration (sensitive data in logs)",
         "owaspAsvs": "V7.1",
@@ -1089,7 +1089,7 @@
       "category": "ABUS",
       "risk": "Medium",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.18-resilience-abuse.md",
+      "file": "3. MCP Threats and Attack Patterns/4.18-resilience-abuse.md",
       "mappings": {
         "owaspLlmTop10": "LLM10 Unbounded Consumption, LLM08 Excessive Agency",
         "owaspApiTop10": "API4:2023 Unrestricted Resource Consumption",
@@ -1106,7 +1106,7 @@
       "category": "ABUS",
       "risk": "High",
       "testingType": "Hybrid",
-      "file": "docs/04-mcp-security-testing/4.18-resilience-abuse.md",
+      "file": "3. MCP Threats and Attack Patterns/4.18-resilience-abuse.md",
       "mappings": {
         "owaspLlmTop10": "LLM08 Excessive Agency",
         "owaspApiTop10": "API6:2023 Unrestricted Access to Sensitive Business Flows",
@@ -1123,7 +1123,7 @@
       "category": "PRVC",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.19-privacy-retention.md",
+      "file": "3. MCP Threats and Attack Patterns/4.19-privacy-retention.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure, LLM06 Excessive Agency",
         "owaspAsvs": "V8.1, V8.2 (PII handling in outputs)",
@@ -1138,7 +1138,7 @@
       "category": "PRVC",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.19-privacy-retention.md",
+      "file": "3. MCP Threats and Attack Patterns/4.19-privacy-retention.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure",
         "owaspAsvs": "V8.2, V8.3 (retention and downstream copying)",
@@ -1152,7 +1152,7 @@
       "category": "PRVC",
       "risk": "High",
       "testingType": "Manual",
-      "file": "docs/04-mcp-security-testing/4.19-privacy-retention.md",
+      "file": "3. MCP Threats and Attack Patterns/4.19-privacy-retention.md",
       "mappings": {
         "owaspLlmTop10": "LLM02 Sensitive Information Disclosure, LLM06 Excessive Agency (cross-tenant context)",
         "owaspAsvs": "V8.3 (tenant isolation and labeling)",

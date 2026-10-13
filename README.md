@@ -1,83 +1,46 @@
-# MCP Security Testing Guide (MCPSTG)
+# OWASP MCP Security Testing Guide
 
-Vendor-neutral security testing guidance for systems built around the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/). This repository follows an **OWASP Web Security Testing Guide–style** layout: numbered narrative chapters, a dedicated **MCP Security Testing** chapter (sections 4.1–4.19), and appendices.
+The Model Context Protocol (MCP) is an open protocol that lets LLM applications connect to external data sources, tools, prompts, workflows, and services. This guide treats MCP as a security boundary: the chain from the user, through the model and MCP client, to the MCP server, the connected tool, and the target system.
 
-## Audience
+It is a living collection of MCP security knowledge for developers, AppSec, red teams, and SOC teams. It covers threats, secure development, client and host controls, supply chain, enterprise gateways, detection, incident response, taxonomy, public incidents, case studies, and review checklists.
 
-Developers, security testers, red teams, application security engineers, AI security reviewers, **platform engineers**, and **MCP server maintainers**.
+This work is licensed under [GPL-3.0](LICENSE).
 
-## Guide structure (read in order)
+## Chapters
 
+1. [Project Overview](<1. Project_Overview.md>)
+2. [MCP Fundamentals](<2. MCP Fundamentals.md>)
+3. [MCP Threats and Attack Patterns](mcp-threats-and-attack-patterns.md) — pattern index; the write-ups live in [MCP Security Testing](<3. MCP Threats and Attack Patterns/README.md>) sections 4.1–4.19
+4. [Secure MCP Development](<4. Secure MCP Development.md>)
+5. [MCP Client and Host Security](<5. MCP Client and Host Security.md>)
+6. [MCP Supply Chain Security](<6. MCP Supply Chain Security.md>)
+7. [MCP Gateways, Registries, and Enterprise Governance](<7. MCP Gateways, Registries, and Enterprise Governance.md>)
+8. [Detection, Monitoring, and SOC Content](<8. Detection, Monitoring, and SOC Content.md>)
+9. [MCP Incident Response](<9. MCP Incident Response.md>)
+10. [MCP Security Taxonomy](<10. MCP Security Taxonomy.md>)
+11. [Hacks, News, and Public Incidents](<11. Hacks, News, and Public Incidents.md>)
+12. [Case Studies](<12. Case Studies.md>)
+13. [Checklists](<13. Checklists.md>)
+14. [Glossary](<14. Glossary.md>)
 
-| #   | Chapter                                                                             | What it contains                                                     |
-| --- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1   | **[Frontispiece](docs/01-frontispiece.md)**                                         | Title, version, how to read the guide                                |
-| 2   | **[Introduction](docs/02-introduction.md)**                                         | MCP scope, audience, safe testing rules                              |
-| 3   | **[The MCP Security Testing Framework](docs/03-mcp-security-testing-framework.md)** | Principles, methodology, threat modeling, SDLC                       |
-| 4   | **[MCP Security Testing](docs/04-mcp-security-testing/README.md)**                  | **79 tests explained in sections 4.1–4.19** (with MCP code snippets) |
-| 5   | **[Reporting](docs/05-reporting.md)**                                               | Finding format, evidence, severity                                   |
-| —   | **[MCP Threats and Attack Patterns](docs/mcp-threats-and-attack-patterns.md)**     | Canonical attack patterns, public samples, and defenses              |
+## MCP security testing
 
+The test catalog is in [Chapter 4](<3. MCP Threats and Attack Patterns/README.md>). It uses an OWASP Web Security Testing Guide–style layout: numbered narrative chapters and **79 tests** in sections 4.1–4.19.
 
-### Where is the MCP security testing?
+| # | Chapter | What it contains |
+| --- | --- | --- |
+| 1 | [Frontispiece](01-frontispiece.md) | Title, version, how to read the guide |
+| 2 | [MCP Fundamentals](<2. MCP Fundamentals.md>) | What MCP is, scope, audience, safe testing rules |
+| 3 | [The MCP Security Testing Framework](03-mcp-security-testing-framework.md) | Principles, methodology, threat modeling, SDLC |
+| 4 | [MCP Security Testing](<3. MCP Threats and Attack Patterns/README.md>) | Tests explained in sections 4.1–4.19 |
+| 5 | [Reporting](05-reporting.md) | Finding format, evidence, severity |
+| — | [MCP Threats and Attack Patterns](mcp-threats-and-attack-patterns.md) | Index of attack patterns, public samples, and defenses in sections 4.1–4.19 |
 
-Open **[Chapter 4](docs/04-mcp-security-testing/README.md)** and pick a section **4.1 through 4.19**. Each page explains that category’s tests on the same page—summary, steps, **example JSON/YAML/code snippets**, and expected results. Example: [4.18 Resilience and Abuse](docs/04-mcp-security-testing/4.18-resilience-abuse.md).
+[Contributing](CONTRIBUTING.md) describes how to edit section pages. [index.json](index.json) is the machine-readable catalog of test cases. Test IDs use the form `MCPSTG-<CATEGORY>-<NUMBER>`.
 
-### Appendices
+This guide is educational material. Do not use it to test systems without explicit written authorization. Use synthetic lab environments and placeholders.
 
+## Related OWASP projects
 
-| Appendix                    | File                                                                           |
-| --------------------------- | ------------------------------------------------------------------------------ |
-| A — Glossary                | [docs/appendix-a-glossary.md](docs/appendix-a-glossary.md)                     |
-| B — Sample Threat Scenarios | [docs/appendix-b-scenarios.md](docs/appendix-b-scenarios.md)                   |
-| C — Evidence Checklist      | [docs/appendix-c-evidence-checklist.md](docs/appendix-c-evidence-checklist.md) |
-| D — Safe Lab Fixtures       | [docs/appendix-d-lab-fixtures.md](docs/appendix-d-lab-fixtures.md)             |
-| E — Suggested Reading       | [docs/appendix-e-suggested-reading.md](docs/appendix-e-suggested-reading.md)   |
-| F — Testing Tools Resource  | [docs/appendix-f-testing-tools.md](docs/appendix-f-testing-tools.md)           |
-
-
-## Repository layout
-
-### Project root
-
-
-| Name                            | Role                                       |
-| ------------------------------- | ------------------------------------------ |
-| [Overview](README.md)           | Project summary, layout, legal notice      |
-| [Contributing](CONTRIBUTING.md) | Contribution rules, tone, bootstrap usage  |
-| [Test index](index.json)        | Machine-readable catalog of all test cases |
-
-
-### Chapter 4 test sections
-
-
-| Section    | Category              | Guide                                                   |
-| ---------- | --------------------- | ------------------------------------------------------- |
-| 4.1 – 4.19 | All MCPSTG categories | [Chapter 4 hub](docs/04-mcp-security-testing/README.md) |
-
-
-Tests are **not** maintained as a separate reader-facing documentation tree. Section pages under `docs/04-mcp-security-testing/` are the canonical reading path.
-
-### Tooling (`schemas/`)
-
-
-| Name                                              | Role                                              |
-| ------------------------------------------------- | ------------------------------------------------- |
-| [Test case schema](schemas/test-case.schema.json) | Optional JSON Schema for structured test metadata |
-
-
-## Test ID format
-
-`MCPSTG-<CATEGORY>-<NUMBER>` (for example `MCPSTG-TOOL-01`).
-
-## Important notice
-
-This guide is educational material. **Do not** use it to test systems without explicit written authorization. Use synthetic lab environments and placeholders—not production data or real third-party targets.
-
-## Maintaining tests
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for editing section pages and updating [index.json](index.json).
-
-## License
-
-Specify your license in a `LICENSE` file when publishing (for example CC BY-SA 4.0 for documentation-only projects).
+- [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/)
+- [OWASP MCP Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html)
